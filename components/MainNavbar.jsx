@@ -59,15 +59,15 @@ const MainNavbar = () => {
   const menuItems = useMemo(
     () => [
       { title: "Home", slug: "/" },
-      { title: "Cabinets", slug: "/" },
+      { title: "Cabinets", slug: "" },
       // cabinets
-      { title: "About Us", slug: "/" },
+      { title: "About Us", slug: "" },
       //about
-      { title: "Blog", slug: "/" },
+      { title: "Blog", slug: "" },
       // blog
-      { title: "Testimonials", slug: "/" },
+      { title: "Testimonials", slug: "" },
       // testimonials
-      { title: "Contact Us", slug: "/" },
+      { title: "Contact Us", slug: "" },
       // contact
     ],
     []
@@ -76,15 +76,15 @@ const MainNavbar = () => {
   const navLogoList = useMemo(
     () => [
       { title: "Home", slug: "/" },
-      { title: "Cabinets", slug: "/" },
+      { title: "Cabinets", slug: "" },
       // cabinets
-      { title: "About Us", slug: "/" },
+      { title: "About Us", slug: "" },
       //about
-      { title: "Blog", slug: "/" },
+      { title: "Blog", slug: "" },
       // blog
-      { title: "Testimonials", slug: "/" },
+      { title: "Testimonials", slug: "" },
       // testimonials
-      { title: "Contact Us", slug: "/" },
+      { title: "Contact Us", slug: "" },
       // contact
     ],
     []
