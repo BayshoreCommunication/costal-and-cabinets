@@ -181,7 +181,7 @@ const MainNavbar = () => {
                 >
                   <div className="flex items-center justify-center gap-x-0 xl:gap-x-2  px-2">
                     <BsTelephoneForwardFill className="text-white size-4  xl:size-5" />
-                    <h6 className="text-white font-medium text-sm lg:text-base xl:text-xl">
+                    <h6 className="text-white font-medium text-sm lg:text-base ">
                       954-529-0695
                     </h6>
                   </div>
