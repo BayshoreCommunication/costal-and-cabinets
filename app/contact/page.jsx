@@ -1,7 +1,4 @@
-import ContactHeroSection from "@/components/contact-us/ContactHeroSection";
-import GoogleMapSection from "@/components/contact-us/GoogleMapSection";
 import CallToAction from "@/components/shared/CallToAction";
-import Head from "next/head";
 
 export const metadata = {
   title: `Contact Melamed Law PLLC | Florida Property Damage Lawyer |  Florida Insurance Claims Attorney | Insurance attorney in Aventura, Florida`,
@@ -20,8 +17,6 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <ContactHeroSection />
-      <GoogleMapSection />
       <CallToAction />
     </>
   );

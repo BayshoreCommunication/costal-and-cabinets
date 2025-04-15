@@ -1,10 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import SectionLayout from "../shared/SectionLayout";
-import { Button } from "@nextui-org/react";
 import { send } from "emailjs-com";
 import Swal from "sweetalert2";
-import CardMotion from "../motion/CardMotion";
 import { MdArrowOutward } from "react-icons/md";
 import { areaspracticeData } from "@/config/data";
 

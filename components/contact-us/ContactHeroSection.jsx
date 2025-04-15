@@ -1,5 +1,4 @@
 import React from "react";
-import SectionLayout from "../shared/SectionLayout";
 import { PiPhoneCallFill } from "react-icons/pi";
 import { IoMdHome } from "react-icons/io";
 import Link from "next/link";
