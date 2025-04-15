@@ -54,10 +54,10 @@ const HeroSection = () => {
           keyboard={true}
           loop={true}
           autoplay={true}
-          autoplayDelay={2000}
+          autoplayDelay={1000}
           autoplayDisableOnInteraction={false}
           grabCursor={true}
-          speed={2000}
+          speed={1000}
           modules={[Navigation, Pagination, Keyboard, Autoplay, EffectFade]}
           className="mySwiper"
         >
