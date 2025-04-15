@@ -50,8 +50,8 @@ const TestimonialSlideSection = ({ className }) => {
                     <Image
                       src={testimonial.image}
                       alt={testimonial.name}
-                      width={80}
-                      height={80}
+                      width={60}
+                      height={60}
                       className="rounded-full mx-auto mb-4"
                     />
                   </div>

@@ -1,9 +1,9 @@
-
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import MainNavbar from "@/components/MainNavbar";
 import Footer from "@/components/Footer";
 import { Providers } from "./providers";
+import ScrollToTopButton from "@/components/shared/ScrollToTopButton";
 
 const open_sans = Open_Sans({
   subsets: ["latin"],
@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
             <MainNavbar />
             {children}
             <Footer />
+            <ScrollToTopButton />
           </div>
         </Providers>
       </body>

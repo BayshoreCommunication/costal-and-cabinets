@@ -42,7 +42,7 @@ const WhatPeopleSay = () => {
         </div>
 
         {/* Absolute Right-Aligned Image Grid */}
-        <div className="absolute top-1/2 right-64 transform -translate-y-1/2 translate-x-1/4 z-0">
+        <div className="hidden lg:absolute top-1/2 right-64 transform -translate-y-1/2 translate-x-1/4 z-0 ">
           <Image
             src="/assets/testimonial/testimonials.jpg"
             alt="Testimonial Grid"

@@ -5,51 +5,45 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 
 const AboutDetails = () => {
   return (
-    <div className="relative w-full h-auto min-h-svh flex items-center justify-center">
-      <Image
-        className="absolute inset-0 object-cover bg-bottom w-full h-full"
-        width={1920}
-        height={700}
-        src={"/assets/aboutpage/aboutbg.jpg"}
-        alt="Page Hero Image"
-      />
+    <div className="container py-10 md:py-20">
+      <div className="flex md:flex-row flex-col items-start justify-between gap-2 lg:gap-8">
+        <div className="flex-1">
+          <ScrollMotionEffect effect="fade-right" duration="2000">
+            <Image
+              src={"/assets/aboutpage/about-bg.jpg"}
+              width={500}
+              height={500}
+              alt="David Carter"
+              className="rounded-lg shadow-lg w-full"
+            />
+          </ScrollMotionEffect>
+        </div>
+        <div className="flex-1 space-y-4">
+          <ScrollMotionEffect effect="fade-left" duration="2000">
+            <h2 className="text-2xl md:text-4xl lg:text-[42px] font-semibold">
+              Welcome To kbcabinets.pro
+            </h2>
+          </ScrollMotionEffect>
+          <ScrollMotionEffect effect="fade-left" duration="2000">
+            <p className=" py-2 text-left text-base md:text-lg">
+              {`Since 1989, John Kraft, president of Kraft Built, Inc., has been in the residential and commercial construction industry. From the very beginning, he’s been working on kitchens. This experience has taught him common mistakes that most kitchen designers make. He uses that experience to lead his team to be some of the best kitchen designers in the area. Since there are many details when ordering kitchen cabinet parts, it is easy to make an oversight or a typo. That’s why we review each order, repeatedly, for total accuracy, before sending it to a manufacturer or fabricator.`}
+            </p>
+          </ScrollMotionEffect>
 
-      <div className="relative flex flex-col items-center justify-center w-full h-full">
-        <div className="container py-10 md:py-20">
-          <div className="flex md:flex-row flex-col items-center justify-between gap-5">
-            <div className="flex-1">
-              <ScrollMotionEffect effect="fade-right" duration="2000">
-                <Image
-                  src={"/assets/aboutpage/melamed-law.jpg"}
-                  className="mx-auto"
-                  width={500}
-                  height={500}
-                  alt="David Carter"
-                />
-              </ScrollMotionEffect>
-            </div>
-            <div className="flex-1">
-              <ScrollMotionEffect effect="fade-left" duration="2000">
-                <p className="text-white py-2 text-center md:text-left">
-                  {`Aaron D. Melamed, Esq. is an experienced attorney with an extensive background in residential and commercial property damage insurance litigation. Throughout his career, he has vigorously and effectively represented and counseled policyholders, homeowners, business owners, and mitigation/restoration companies in all aspects of their claims and lawsuits against insurance carriers.  His focus is centered around his clients' needs, maintaining communication, and providing productive insight throughout the entire claims process and ensuing litigation. Prior to founding Melamed Law, PLLC, Aaron worked as a litigation attorney at a Plaintiffs' law firm where he helped hundreds of clients throughout Florida recover their damages and resolve their claims against local and national insurance companies.`}
-                </p>
-              </ScrollMotionEffect>
-
-              <ScrollMotionEffect effect="fade-left" duration="2000">
-                <p className="text-white py-2 text-center md:text-left">
-                  {`Mr. Melamed was born and raised in North Miami Beach, Florida.  He obtained his B.A. in Political Science from DePaul University in Chicago, Illinois while interning at the Cook County State's Attorney's Office – Real Estate Tax Division.  Aaron earned his J.D. from Western Michigan University – Thomas M. Cooley Law School and graduated Cum Laude.  During law school, he served as judicial intern for 13th Circuit Court Judge Christopher C. Sabella in the felony division.`}
-                </p>
-              </ScrollMotionEffect>
-
-              <ScrollMotionEffect effect="fade-left" duration="2000">
-                <p className="text-white py-2 text-center md:text-left">
-                  {`In his spare time, Aaron enjoys traveling, playing drums, guitar, and piano, and spending time with his family and friends.`}
-                </p>
-              </ScrollMotionEffect>
-            </div>
-          </div>
+          <ScrollMotionEffect effect="fade-left" duration="2000">
+            <p className=" py-2 text-left text-base md:text-lg ">
+              {`Kraft Built offers framed cabinets, full access European cabinets (with no face-frame), traditional cabinets, modern cabinets, contemporary cabinets, and custom cabinets. As well, we offer a soft close hardware and an array of accessories. Are you not sure what to buy? Visit our showroom (by appt. only) and we can educate you and help you decide.`}
+            </p>
+          </ScrollMotionEffect>
         </div>
       </div>
+
+      <p className="py-2 text-left text-base md:text-lg">
+        {`boxes not being full depth. The cabinets didn’t go together, properly, and the drawers did not attached to the drawer-glides, properly, allowing them to fall out of the cabinet, when you opened them. As well, parts were missing and the local company they purchased from, basically, ‘shrugged their shoulders’, completely unwilling to solve any of those problems for their customer.`}
+      </p>
+      <p className="py-2 text-left text-base md:text-lg">
+        {`He wound up having to pay someone $1500 to come in and repair those cabinets, as best they could, in order for the kitchen to just be functional and usable. That amount, along with the purchase price of the cabinets, exceeded the price that we were going to charge him for our cabinets, of much higher quality and with a five year warranty. Literally, that same customer called me and told me he is saving his money, and plans to remove the quartz countertops (and plumbing) and purchase all new, upgraded cabinets, to replace the junk cabinets that he had purchased, mistakenly. In his case, with the quartz and plumbing removal and reinstallation, if they can save the quartz, he’ll wind up paying 2 1/2 times, at least, won’t he? That’s horrible.`}
+      </p>
     </div>
   );
 };

@@ -2,7 +2,10 @@ import AboutDetails from "@/components/about-us/AboutDetails";
 import GoogleMapSection from "@/components/about-us/GoogleMapSection";
 import ProfessionalLawGroup from "@/components/about-us/ProfessionalLawGroup";
 import LatedAndGretest from "@/components/home/LatedAndGretest";
+import CallToAction from "@/components/shared/CallToAction";
+import CallToActionTwo from "@/components/shared/CallToActionTwo";
 import PageHeroSection from "@/components/shared/PageHeroSection";
+import WhatPeopleSay from "@/components/shared/WhatPeopleSay";
 
 export const metadata = {
   title: `Windstorm Damage Claims lawyer in florida | Hurricane and Storm Damage Insurance Claims Florida Lawyer | Florida Property Damage Experts
@@ -22,19 +25,14 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      {/* <PageHeroSection
+      <PageHeroSection
         image={"/assets/shared/aboutpage.jpg"}
         title={"About Us"}
-        description={
-          "When the unexpected happens, we help individuals and businesses collect the money they deserve for their insurance claims."
-        }
-      /> */}
-      {/* <ProfessionalLawGroup /> */}
-      {/* <div className="mt-10 lg:mt-12">
-        <AboutDetails />
-      </div> */}
-      {/* <LatedAndGretest />
-      <GoogleMapSection /> */}
+        link={"About Us"}
+      />
+      <AboutDetails />
+      <WhatPeopleSay />
+      <CallToActionTwo />
     </>
   );
 };

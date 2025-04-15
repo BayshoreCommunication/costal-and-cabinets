@@ -59,15 +59,17 @@ const MainNavbar = () => {
   const menuItems = useMemo(
     () => [
       { title: "Home", slug: "/" },
-      { title: "Cabinets", slug: "" },
+      // { title: "Cabinets", slug: "" },
       // cabinets
-      { title: "About Us", slug: "" },
+      { title: "About Us", slug: "/about" },
       //about
-      { title: "Blog", slug: "" },
+      { title: "Contractor Program", slug: "/contractor-program" },
+      // { title: "Blog", slug: "" },
       // blog
-      { title: "Testimonials", slug: "" },
+      { title: "Consumer Awareness", slug: "/consumer-awareness" },
+      // { title: "Testimonials", slug: "/testimonials" },
       // testimonials
-      { title: "Contact Us", slug: "" },
+      // { title: "Contact Us", slug: "" },
       // contact
     ],
     []
@@ -76,11 +78,12 @@ const MainNavbar = () => {
   const navLogoList = useMemo(
     () => [
       { title: "Home", slug: "/" },
-      { title: "Cabinets", slug: "" },
+      // { title: "Cabinets", slug: "" },
       // cabinets
-      { title: "About Us", slug: "" },
-      //about
-      { title: "Blog", slug: "" },
+      { title: "About Us", slug: "/about" },
+
+      { title: "Contractor Program", slug: "/contractor-program" },
+      // { title: "Blog", slug: "" },
       // blog
       { title: "Testimonials", slug: "" },
       // testimonials
@@ -204,7 +207,7 @@ const MainNavbar = () => {
                     alt="footer logo"
                     width={500}
                     height={500}
-                    className="w-[150px] h-auto"
+                    className="w-[100px] h-auto"
                   />
                 </Link>
               </NavbarBrand>

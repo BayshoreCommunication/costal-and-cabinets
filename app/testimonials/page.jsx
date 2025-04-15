@@ -24,9 +24,7 @@ const page = () => {
       <PageHeroSection
         image={"/assets/shared/testimonials.jpg"}
         title={"Testimonials"}
-        description={
-          "When the unexpected happens, we help individuals and businesses collect the money they deserve for their insurance claims."
-        }
+        link={"Testimonials"}
       />
       <TestimonialsSection />
       <CallToAction />
