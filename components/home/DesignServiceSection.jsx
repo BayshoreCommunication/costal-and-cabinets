@@ -51,11 +51,11 @@ const DesignServiceSection = () => {
                     <GrRadialSelected />
                     Frameless Cabinets
                   </li>
-                  <li className="flex items-center gap-x-2 font-semibold">
+                  <li className="flex items-center gap-x-2 ">
                     <GrRadialSelected />
                     Contractor Program
                   </li>
-                  <li className="flex items-center gap-x-2 font-semibold">
+                  <li className="flex items-center gap-x-2 ">
                     <GrRadialSelected />
                     Consumer Awareness
                   </li>
