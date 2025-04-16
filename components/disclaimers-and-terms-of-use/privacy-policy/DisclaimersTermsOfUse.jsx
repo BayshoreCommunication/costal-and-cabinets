@@ -53,26 +53,25 @@ const DisclaimersTermsOfUse = () => {
               We provide the content on this website for informational purposes
               only and do not offer legal advice. Transmission or receipt of
               information from this site does not create an attorney-client
-              relationship between you and Melamed Law PLLC. Please wait to send
-              any confidential information until we have officially established
-              an attorney-client relationship.
+              relationship between you and . Please wait to send any
+              confidential information until we have officially established an
+              attorney-client relationship.
             </p>
             <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               Attorney Advertising
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left pb-4">
-              This website may be considered attorney advertising under the laws
-              of certain jurisdictions. Prior results do not guarantee a similar
+              This website may be considered attorney advertising under the s of
+              certain jurisdictions. Prior results do not guarantee a similar
               outcome.
             </p>
             <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               Jurisdictional Limitations
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left pb-4">
-              Melamed Law PLLC practices law only in jurisdictions where it is
-              properly authorized to do so. We do not seek to represent anyone
-              in a jurisdiction where this website does not comply with
-              applicable laws and bar rules.
+              practices only in jurisdictions where it is properly authorized to
+              do so. We do not seek to represent anyone in a jurisdiction where
+              this website does not comply with applicable s and bar rules.
             </p>
             <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               No Guarantees
@@ -88,24 +87,23 @@ const DisclaimersTermsOfUse = () => {
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left pb-4">
               This website may contain links to third-party websites for
-              convenience. Melamed Law PLLC does not endorse and is not
-              responsible for the content of such external sites.
+              convenience. does not endorse and is not responsible for the
+              content of such external sites.
             </p>
             <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               Limitation of Liability
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left pb-4">
-              Melamed Law PLLC expressly disclaims all liability for actions
-              taken or not taken based on any or all the contents of this site.
+              expressly disclaims all liability for actions taken or not taken
+              based on any or all the contents of this site.
             </p>
             <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               Intellectual Property
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left pb-4">
               All content on this website, including text, graphics, logos, and
-              images, is the property of Melamed Law PLLC and is protected by
-              applicable intellectual property laws. Unauthorized use is
-              prohibited.
+              images, is the property of and is protected by applicable
+              intellectual property s. Unauthorized use is prohibited.
             </p>
           </div>
         </div>

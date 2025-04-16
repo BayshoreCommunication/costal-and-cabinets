@@ -18,9 +18,9 @@ const TermsOfService = () => {
               AGREEMENT TO OUR LEGAL TERMS
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left">
-              By using the services of Melamed Law, PLLC, including our website
-              and related resources, you agree to these Legal Terms. If you do
-              not agree with these terms, please discontinue use of the Services
+              By using the services of , including our website and related
+              resources, you agree to these Legal Terms. If you do not agree
+              with these terms, please discontinue use of the Services
               immediately. We reserve the right to update or modify these Legal
               Terms at any time. Changes will take effect upon publication, and
               continued use of the Services constitutes acceptance of the
@@ -30,9 +30,9 @@ const TermsOfService = () => {
               {`1) OUR SERVICES`}
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left">
-              The Services provided by Melamed Law, PLLC are intended to assist
-              clients with property damage and insurance claims, including but
-              not limited to:
+              The Services provided by are intended to assist clients with
+              property damage and insurance claims, including but not limited
+              to:
             </p>
             <ol className="pl-14 list-disc">
               <li className="pb-4">
@@ -45,9 +45,9 @@ const TermsOfService = () => {
               <li className="pb-4">Vandalism and theft claims</li>
             </ol>
             <p className="text-lg text-stone-950 text-center md:text-left">
-              Our Services are for lawful purposes only. Users are responsible
-              for ensuring compliance with local laws if accessing the Services
-              from jurisdictions with specific legal restrictions.
+              Our Services are for ful purposes only. Users are responsible for
+              ensuring compliance with local s if accessing the Services from
+              jurisdictions with specific legal restrictions.
             </p>
             <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               {`2) INTELLECTUAL PROPERTY RIGHTS`}
@@ -55,10 +55,10 @@ const TermsOfService = () => {
             <ol className="pl-14 list-disc">
               <li className="pb-4">
                 <span className="font-semibold">Our Rights: </span>
-                Melamed Law, PLLC owns or licenses all intellectual property
-                related to the Services, including website design, text, images,
-                software, databases, and trademarks. These rights are protected
-                under applicable copyright and trademark laws.
+                owns or licenses all intellectual property related to the
+                Services, including website design, text, images, software,
+                databases, and trademarks. These rights are protected under
+                applicable copyright and trademark s.
               </li>
               <li className="pb-4">
                 <span className="font-semibold">Your Use: </span>
@@ -72,7 +72,7 @@ const TermsOfService = () => {
                 By submitting feedback or content through our website or
                 Services, you grant us the right to use, modify, and distribute
                 such content. Any intellectual property rights in these
-                submissions will be assigned to Melamed Law, PLLC.
+                submissions will be assigned to .
               </li>
             </ol>
             <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
@@ -95,10 +95,10 @@ const TermsOfService = () => {
                 You will not use automated means to access the Services.
               </li>
               <li className="pb-4">
-                You will not use the Services for unlawful purposes.
+                You will not use the Services for un ful purposes.
               </li>
               <li className="pb-4">
-                You will comply with all applicable laws and regulations.
+                You will comply with all applicable s and regulations.
               </li>
             </ol>
             <p className="text-lg text-stone-950 text-center md:text-left">
@@ -111,8 +111,8 @@ const TermsOfService = () => {
             <p className="text-lg text-stone-950 text-center md:text-left">
               Certain features of our Services may require user registration.
               You are responsible for maintaining the security of your account
-              credentials. Melamed Law, PLLC reserves the right to remove,
-              reclaim, or modify usernames deemed inappropriate or misleading.
+              credentials. reserves the right to remove, reclaim, or modify
+              usernames deemed inappropriate or misleading.
             </p>
             <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               {`5) PROHIBITED ACTIVITIES`}
@@ -136,9 +136,7 @@ const TermsOfService = () => {
               <li className="pb-4">
                 Use the Services to defame, harass, or harm others.
               </li>
-              <li className="pb-4">
-                Violate any applicable laws or regulations.
-              </li>
+              <li className="pb-4">Violate any applicable s or regulations.</li>
             </ol>
             <p className="text-lg text-stone-950 text-center md:text-left">
               Engaging in prohibited activities may result in termination of
@@ -148,10 +146,10 @@ const TermsOfService = () => {
               {`6) USER-GENERATED CONTRIBUTIONS`}
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left">
-              Any content you submit must be truthful, lawful, and free of
+              Any content you submit must be truthful, ful, and free of
               third-party rights violations. By submitting content, you grant
-              Melamed Law, PLLC the rights to use, modify, and distribute your
-              contributions as part of the Services.
+              the rights to use, modify, and distribute your contributions as
+              part of the Services.
             </p>
             <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               {`7) CONTRIBUTION LICENSE`}
@@ -175,19 +173,18 @@ const TermsOfService = () => {
               {`9) COPYRIGHT INFRINGEMENT`}
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left">
-              Melamed Law, PLLC respects intellectual property rights. If you
-              believe your copyrighted material has been used without
-              authorization, please contact us with the relevant details for
-              review and resolution.
+              respects intellectual property rights. If you believe your
+              copyrighted material has been used without authorization, please
+              contact us with the relevant details for review and resolution.
             </p>
             <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               {`10) MODIFICATIONS AND INTERRUPTIONS`}
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left">
               We reserve the right to modify, suspend, or discontinue the
-              Services at any time without prior notice. Melamed Law, PLLC is
-              not responsible for any interruptions or changes that may occur
-              during such modifications.
+              Services at any time without prior notice. is not responsible for
+              any interruptions or changes that may occur during such
+              modifications.
             </p>
             <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               {`11) USER DATA`}
@@ -207,7 +204,7 @@ const TermsOfService = () => {
               at:
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left font-semibold">
-              Melamed Law PLLC
+              Coastal Cabinets And Closets
             </p>
             <p className="font-semibold text-base text-stone-950 text-center md:text-left">
               Location{" "}
@@ -235,18 +232,18 @@ const TermsOfService = () => {
               Email{" "}
               <span
                 className="text-blue-500 underline block font-normal"
-                mailto="mailto:info@melamedlawpllc.com"
+                mailto=" info@coastalcabinets.com"
               >
                 <Link
-                  href="mailto: info@melamedlawpllc.com"
+                  href="mailto: info@coastalcabinets.com"
                   className="hover:underline duration-300 text-base"
                 >
-                  info@melamedlawpllc.com
+                  info@coastalcabinets.com
                 </Link>
               </span>{" "}
             </p>
             <p className="text-base text-stone-950 font-semibold text-center md:text-left">
-              {`© 2025 Melamed Law, PLLC. All Rights Reserved.`}
+              {`© 2025  . All Rights Reserved.`}
             </p>
           </div>
         </div>

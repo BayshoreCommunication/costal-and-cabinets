@@ -4,9 +4,8 @@ import PageHeroSection from "@/components/shared/PageHeroSection";
 import WhatPeopleSay from "@/components/shared/WhatPeopleSay";
 
 export const metadata = {
-  title: `Windstorm Damage Claims lawyer in florida | Hurricane and Storm Damage Insurance Claims Florida Lawyer | Florida Property Damage Experts
-| Melamed Law PLLC | best public adjuster in florida |`,
-  description: `Melamed Law PLLC provides expert legal representation for Windstorm Damage Claims in Florida. As trusted Florida Property Damage Experts, we specialize in Hurricane and Storm Damage Insurance Claims. Whether you need a loss adjuster in Aventura, Florida, or the best public adjuster in Florida, our team is here to secure the compensation you deserve.`,
+  title: ``,
+  description: ``,
   alternates: {
     canonical: "/",
     languages: {

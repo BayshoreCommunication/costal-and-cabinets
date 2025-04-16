@@ -10,7 +10,7 @@ const CookiePolicy = () => {
           <h2
             className={`text-stone-950 !font-semibold text-3xl md:text-5xl mt-10 lg:mt-20 mb-10  text-center  uppercase`}
           >
-            Cookie Policy for Melamed Law PLLC
+            Cookie Policy for
           </h2>
 
           <div className="flex flex-col gap-4">
@@ -18,18 +18,17 @@ const CookiePolicy = () => {
               Effective Date: 26 January, 2025
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left">
-              Melamed Law PLLC (“we,” “our,” or “us”) is dedicated to
-              safeguarding your privacy while you navigate our website. This
-              Cookie Policy is intended to provide you with a comprehensive
-              understanding of how we use cookies, the types of cookies
-              employed, and the choices available to you regarding cookies. By
-              using our website, you consent to the use of cookies as outlined
-              in this policy.
+              (“we,” “our,” or “us”) is dedicated to safeguarding your privacy
+              while you navigate our website. This Cookie Policy is intended to
+              provide you with a comprehensive understanding of how we use
+              cookies, the types of cookies employed, and the choices available
+              to you regarding cookies. By using our website, you consent to the
+              use of cookies as outlined in this policy.
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left">
-              This policy is designed to comply with the applicable privacy
-              laws, including the European Union's General Data Protection
-              Regulation (GDPR) and other relevant regulations.
+              This policy is designed to comply with the applicable privacy ,
+              including the European Union's General Data Protection Regulation
+              (GDPR) and other relevant regulations.
             </p>
             <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               What Are Cookies?
@@ -254,9 +253,7 @@ const CookiePolicy = () => {
               regarding your personal information, please contact us using the
               following contact details:
             </p>
-            <p className="text-lg text-stone-950 text-center md:text-left font-semibold">
-              Melamed Law PLLC
-            </p>
+            <p className="text-lg text-stone-950 text-center md:text-left font-semibold"></p>
             <p className="font-semibold text-base text-stone-950 text-center md:text-left">
               Location{" "}
               <span className="font-normal text-blue-500 underline block">
@@ -283,13 +280,13 @@ const CookiePolicy = () => {
               Email{" "}
               <span
                 className="text-blue-500 underline block font-normal"
-                mailto="mailto:info@melamedlawpllc.com"
+                mailto=""
               >
                 <Link
-                  href="mailto: info@melamedlawpllc.com"
+                  href="mailto: info@coastalcabinets.com"
                   className="hover:underline duration-300 text-base"
                 >
-                  info@melamedlawpllc.com
+                  info@coastalcabinets.com
                 </Link>
               </span>{" "}
             </p>

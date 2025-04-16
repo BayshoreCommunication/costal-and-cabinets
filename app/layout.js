@@ -10,7 +10,7 @@ const open_sans = Open_Sans({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://www.melamedlawpllc.com"),
+  metadataBase: new URL("https://www.coastalcabinetsandclosets.com"),
 };
 
 export default function RootLayout({ children }) {
