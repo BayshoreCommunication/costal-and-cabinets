@@ -14,9 +14,12 @@ const WhatPeopleSay = () => {
               We sell quality products that have passed John Kraft’s stringent
               requirements. The old adage goes, “You get what you pay for”. Be
               careful, when shopping for cabinets. It is one of those products
-              that can vary in quality and features, greatly. See our Consumer
-              Awareness article,{" "}
-              <Link href="" className="text-secondary italic hover:underline">
+              that can vary in quality and features, greatly. See our recent
+              blogs article,{" "}
+              <Link
+                href="/blogs"
+                className="text-secondary italic hover:underline"
+              >
                 here
               </Link>
               .

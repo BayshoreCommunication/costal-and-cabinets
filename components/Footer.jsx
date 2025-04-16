@@ -12,18 +12,6 @@ const Footer = () => {
           <div>
             <div className=" flex justify-center items-center gap-5">
               <Link
-                href="https://x.com/CabinetCoastal"
-                className="w-10 h-10 bg-[#313034] rounded-full flex items-center justify-center hover:bg-secondary duration-300"
-              >
-                <FaXTwitter />
-              </Link>
-              <Link
-                href="https://www.linkedin.com/company/coastal-cabinets-closets/"
-                className="w-10 h-10 bg-[#313034] rounded-full flex items-center justify-center hover:bg-secondary duration-300"
-              >
-                <FaLinkedinIn />
-              </Link>
-              <Link
                 href="https://www.facebook.com/CoastalCabinetsandClosets"
                 className="w-10 h-10 bg-[#313034] rounded-full flex items-center justify-center hover:bg-secondary duration-300"
               >
@@ -34,6 +22,18 @@ const Footer = () => {
                 className="w-10 h-10 bg-[#313034] rounded-full flex items-center justify-center hover:bg-secondary duration-300"
               >
                 <FaInstagram />
+              </Link>
+              <Link
+                href="https://x.com/CabinetCoastal"
+                className="w-10 h-10 bg-[#313034] rounded-full flex items-center justify-center hover:bg-secondary duration-300"
+              >
+                <FaXTwitter />
+              </Link>
+              <Link
+                href="https://www.linkedin.com/company/coastal-cabinets-closets/"
+                className="w-10 h-10 bg-[#313034] rounded-full flex items-center justify-center hover:bg-secondary duration-300"
+              >
+                <FaLinkedinIn />
               </Link>
             </div>
             <p className="text-center text-sm mt-5">

@@ -163,7 +163,7 @@ const MainNavbar = () => {
               />
             </NavbarContent>
 
-            <NavbarMenu className="overflow-hidden">
+            <NavbarMenu className="overflow-hidden" style={{ zIndex: 999 }}>
               {menuItems.map((el, index) => (
                 <NavbarMenuItem key={el.slug} className="flex flex-row">
                   <Link

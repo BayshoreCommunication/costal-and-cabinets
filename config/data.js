@@ -3,19 +3,18 @@ export const heroData = [
     id: 1,
     backgroundImage: "/assets/homepage/slides1.jpg",
     heading:
-      "Transform your kitchen into a 5-star culinary space with expert remodeling and design",
+      "Transform your kitchen into a 5-star culinary space with expert design",
   },
   {
     id: 2,
     backgroundImage: "/assets/homepage/slides2.jpg",
     heading:
-      "Premium cabinets, sleek design, and full-service remodeling—your dream kitchen starts here",
+      "Premium cabinets, sleek design, and full-service your dream kitchen starts here",
   },
   {
     id: 3,
     backgroundImage: "/assets/homepage/slides3.jpg",
-    heading:
-      "From concept to completion, we bring your luxury kitchen vision to life",
+    heading: "From concept to completion, we bring your kitchen vision to life",
   },
   {
     id: 4,
@@ -33,37 +32,37 @@ export const heroData = [
 
 export const testimonialsData = [
   {
-    name: "Lisa S.",
+    name: "Micheal B",
     review:
-      "      negotiating/legal skills in dealing with my very difficult mitigation/rebuild condo situation saved the day! He is industry knowledgeable, conscientious, thorough, professional, trustworthy, caring and diligent. Should I ever need his services again, I would not hesitate to reach out. His network of colleagues are as dependable as he is.     guides his client with the human touch, a rarity in today’s legal world.     is a  yer who goes the extra mile in every aspect, from listening & explaining, to planning and proceeding. Highly recommended!",
+      "Although we live in Georgia, Kraft Built, Inc made our cabinet project for a property in Florida super easy! The positive reviews researched on Kraft Built were absolutely right on. John Kraft was totally professional, detailed and honest. His pricing was very reasonable with good quality. He made us feel very comfortable by communicating with us at all times. We will definitely use Kraft Built, Inc for any future jobs.",
     rating: 5,
     image: "/assets/testimonial/testimonial-1.jpg",
   },
   {
-    name: "Mackiesh Taylor",
+    name: "Agent 9",
     review:
-      "If you’re looking for a dedicated and a detail-oriented attorney, look no further than        at     .     is an incredibly hardworking  yer who goes above and beyond for his clients. His meticulous attention to detail and his deep understanding of the   make him the right person to handle your case. He is committed to achieving the best possible outcome, providing clear communication, and ensuring that every aspect of your legal matter is thoroughly addressed. With        on your side, you can trust that you are in capable and reliable hands. Highly recommend!",
+      "I had a checklist of things that needed done in my kitchen. John was very personable and had great communication with me. He worked with me to find solutions for everything. He kept the work area very neat. I am very happy with the work done; it was a professional job. I will definitely use Kraft Built again.",
     rating: 5,
     image: "/assets/testimonial/testimonial-1.jpg",
   },
   {
-    name: "Monica Amor",
+    name: "Tania T",
     review:
-      "If you want a   firm who will aggressively fight for your rights, look no further. I have only good things to say about this firm. Through their hard work, dedication, and expertise, this firm secured an excellent outcome on my case. I could not be happier. Highly recommended!!",
+      "I used Kraft Built Inc. for my kitchen and bathroom. I was completely satisfied. The sales person was professional and friendly. I recommend Kraft Built, Inc.s",
     rating: 5,
     image: "/assets/testimonial/testimonial-1.jpg",
   },
   {
-    name: "Linda Shiflet",
+    name: "Marcos S",
     review:
-      "I was referred to     by a mutual friend. My insurance company was giving me problems on my hurricane claims and even though I am an attorney I was unable to get through the hurdles arising from my carrier. I turned everything over to     and he handled things as efficiently as possible in the circumstances and saved me months of stress and aggravation. He was able to settle my claims and recovered all my expenses. I am very pleased with the work     did for me and recommend him to anyone dealing with an insurance issue.",
+      "John and his team are amazing. Their work is simply awesome. It has been 3 years and the kitchen still looks gorgeous, we had a small issue and they came by and fixed, no charge. So, I totally recommend Kraft Built for your project. Thank you Kraft Built!",
     rating: 5,
     image: "/assets/testimonial/testimonial-1.jpg",
   },
   {
-    name: "Aida Requejo",
+    name: "Ed B",
     review:
-      "I have only good things to say about this firm.        is a hardworking  yer his meticulous attention to detail providing clear communication with human touch, he was able to settle my claim and recovered all my expenses, I’m very grateful with the work     did for me. Highly recommend!!",
+      "I spent many years working on the owner's side of construction projects. John is excellent. Very experienced in many areas of construction and remodeling. He's very attentive to details and focused on quality and fair pricing.s",
     rating: 5,
     image: "/assets/testimonial/testimonial-1.jpg",
   },
