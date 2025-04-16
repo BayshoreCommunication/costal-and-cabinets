@@ -168,20 +168,19 @@ const MainNavbar = () => {
               </div>
             </div>
 
-            <div className="">
-              <div className="bg-secondary  py-2  md:px-1 lg:px-1 xl:px-2 rounded-lg">
-                <Link
-                  href="tel:954-529-0695"
-                  className="flex flex-col justify-center"
-                >
-                  <div className="flex items-center justify-center gap-x-0 xl:gap-x-2  px-2">
+            <div className="group  inline-block">
+              <Link href="tel:9545290695">
+                <button className="relative overflow-hidden bg-secondary  py-2  md:px-1 lg:px-1 xl:px-2 rounded-lg">
+                  <div className="relative z-10 flex items-center justify-center gap-x-0 xl:gap-x-2  px-2">
                     <BsTelephoneForwardFill className="text-white size-4  xl:size-5" />
-                    <h6 className="text-white font-medium text-sm lg:text-base ">
+                    <h6 className=" transition-colors duration-300 text-white font-medium text-sm lg:text-base ">
                       954-529-0695
                     </h6>
                   </div>
-                </Link>
-              </div>
+
+                  <span className="absolute inset-0 bg-primary z-0 transform scale-x-0 origin-center group-hover:scale-x-100 transition-transform duration-500 ease-out"></span>
+                </button>
+              </Link>
             </div>
           </div>
         </div>
