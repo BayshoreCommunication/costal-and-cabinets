@@ -49,13 +49,14 @@ const HeroSection = () => {
 
         <Swiper
           ref={swiperRef}
-          effect={"fade"}
-          pagination={true}
-          keyboard={true}
+          effect="fade"
+          pagination={{ clickable: true }}
+          keyboard={{ enabled: true }}
           loop={true}
-          autoplay={true}
-          autoplayDelay={1000}
-          autoplayDisableOnInteraction={false}
+          autoplay={{
+            delay: 1000,
+            disableOnInteraction: false,
+          }}
           grabCursor={true}
           speed={1000}
           modules={[Navigation, Pagination, Keyboard, Autoplay, EffectFade]}
@@ -63,7 +64,10 @@ const HeroSection = () => {
         >
           {[...heroData].reverse().map((testimonial, index) => (
             <SwiperSlide>
-              <div className="relative w-full h-[500px] md:h-[700px] flex items-center justify-center">
+              <div
+                className="relative w-full h-[500px] md:h-[700px] flex items-center justify-center "
+                key={index}
+              >
                 {/* Background image */}
 
                 <Image
