@@ -1,3 +1,5 @@
+import Closets from "@/components/closets/Closets";
+import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
 export const metadata = {
   title: ``,
@@ -14,7 +16,16 @@ export const metadata = {
 };
 
 const page = () => {
-  return <>Cabinets Page</>;
+  return (
+    <>
+      <PageHeroSection
+        image={"/assets/shared/aboutpage.jpg"}
+        title={"Closets "}
+        link={"Closets "}
+      />
+      <Closets />
+    </>
+  );
 };
 
 export default page;
