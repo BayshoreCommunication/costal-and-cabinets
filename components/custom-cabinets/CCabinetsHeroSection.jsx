@@ -18,7 +18,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const HeroSection = () => {
+const CCabinetsHeroSection = () => {
   const prevButtonRef = useRef(null);
   const nextButtonRef = useRef(null);
   const swiperRef = useRef(null);
@@ -107,4 +107,4 @@ const HeroSection = () => {
   );
 };
 
-export default memo(HeroSection);
+export default memo(CCabinetsHeroSection);

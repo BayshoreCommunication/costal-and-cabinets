@@ -1,10 +1,6 @@
 import AboutDetails from "@/components/about-us/AboutDetails";
 import ContractorProgramForm from "@/components/contractor-program/ContractorProgramForm";
-import CookiePolicy from "@/components/cookie-policy/CookiePolicy";
-import HeroSection from "@/components/home/HeroSection";
-import CallToAction from "@/components/shared/CallToAction";
 import PageHeroSection from "@/components/shared/PageHeroSection";
-import Head from "next/head";
 import React from "react";
 export const metadata = {
   title: ``,

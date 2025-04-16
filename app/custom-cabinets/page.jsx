@@ -1,7 +1,6 @@
-import CookiePolicy from "@/components/cookie-policy/CookiePolicy";
-import HeroSection from "@/components/home/HeroSection";
-import CallToAction from "@/components/shared/CallToAction";
-import Head from "next/head";
+import CCabinetsHeroSection from "@/components/custom-cabinets/CCabinetsHeroSection";
+import CCabinetsServiceSection from "@/components/custom-cabinets/CCabinetsServiceSection";
+
 import React from "react";
 export const metadata = {
   title: ``,
@@ -18,7 +17,12 @@ export const metadata = {
 };
 
 const page = () => {
-  return <>Cabinets Page</>;
+  return (
+    <>
+      <CCabinetsHeroSection />
+      <CCabinetsServiceSection />
+    </>
+  );
 };
 
 export default page;

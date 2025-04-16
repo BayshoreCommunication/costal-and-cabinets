@@ -60,9 +60,8 @@ const SalesSection = () => {
                     5-star customer service
                   </li>
                 </ul>
-
                 <div className="group mt-8 inline-block">
-                  <Link href={""}>
+                  <Link href="tel:+1 813-697-5752">
                     <button className="relative overflow-hidden bg-primary text-white py-2 lg:py-3 lg:px-8 px-4 rounded-md">
                       <span className="relative z-10 transition-colors duration-300">
                         Call Costal & Cabinets

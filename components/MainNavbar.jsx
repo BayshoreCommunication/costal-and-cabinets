@@ -28,19 +28,19 @@ const debounce = (func, wait) => {
 };
 
 const MainNavbar = () => {
-  useEffect(() => {
-    var prevScrollpos = window.scrollY;
-    window.onscroll = function () {
-      var currentScrollPos = window.scrollY;
+  // useEffect(() => {
+  //   var prevScrollpos = window.scrollY;
+  //   window.onscroll = function () {
+  //     var currentScrollPos = window.scrollY;
 
-      if (prevScrollpos > currentScrollPos) {
-        document.querySelector(".navbar").style.top = "0";
-      } else {
-        document.querySelector(".navbar").style.top = "-200px";
-      }
-      prevScrollpos = currentScrollPos;
-    };
-  });
+  //     if (prevScrollpos > currentScrollPos) {
+  //       document.querySelector(".navbar").style.top = "0";
+  //     } else {
+  //       document.querySelector(".navbar").style.top = "-200px";
+  //     }
+  //     prevScrollpos = currentScrollPos;
+  //   };
+  // });
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
@@ -78,24 +78,24 @@ const MainNavbar = () => {
     []
   );
 
-  const handleScroll = useCallback(
-    debounce(() => {
-      setNavbarColor(window.scrollY >= 100);
-    }, 100),
-    []
-  );
+  // const handleScroll = useCallback(
+  //   debounce(() => {
+  //     setNavbarColor(window.scrollY >= 100);
+  //   }, 100),
+  //   []
+  // );
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [handleScroll]);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, [handleScroll]);
 
   return (
-    <section className={"relative z-50 "}>
+    <section className={"relative z-50  "}>
       <div className="bg-primary w-full navbar ">
-        <div className="bg-white hidden md:block">
+        <div className="bg-white hidden md:block shadow-xl ">
           <div className="flex items-center container  justify-between">
             <div className=" flex items-center gap-x-6 2xl:gap-x-8">
               <Link href={"/"}>
