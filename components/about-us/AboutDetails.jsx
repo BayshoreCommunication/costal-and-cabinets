@@ -21,18 +21,18 @@ const AboutDetails = () => {
         <div className="flex-1 space-y-4">
           <ScrollMotionEffect effect="fade-left" duration="2000">
             <h2 className="text-2xl md:text-4xl lg:text-[42px] font-semibold">
-              Welcome To kbcabinets.pro
+              Welcome To Coastal Cabinets and Closets
             </h2>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-left" duration="2000">
             <p className=" py-2 text-left text-base md:text-lg">
-              {`Since 1989, John Kraft, president of Kraft Built, Inc., has been in the residential and commercial construction industry. From the very beginning, he’s been working on kitchens. This experience has taught him common mistakes that most kitchen designers make. He uses that experience to lead his team to be some of the best kitchen designers in the area. Since there are many details when ordering kitchen cabinet parts, it is easy to make an oversight or a typo. That’s why we review each order, repeatedly, for total accuracy, before sending it to a manufacturer or fabricator.`}
+              {`Since 1989, John Kraft, president of Coastal Cabinets & Closets, Inc., has been in the residential and commercial construction industry. From the very beginning, he’s been working on kitchens. This experience has taught him common mistakes that most kitchen designers make. He uses that experience to lead his team to be some of the best kitchen designers in the area. Since there are many details when ordering kitchen cabinet parts, it is easy to make an oversight or a typo. That’s why we review each order, repeatedly, for total accuracy, before sending it to a manufacturer or fabricator.`}
             </p>
           </ScrollMotionEffect>
 
           <ScrollMotionEffect effect="fade-left" duration="2000">
             <p className=" py-2 text-left text-base md:text-lg ">
-              {`Kraft Built offers framed cabinets, full access European cabinets (with no face-frame), traditional cabinets, modern cabinets, contemporary cabinets, and custom cabinets. As well, we offer a soft close hardware and an array of accessories. Are you not sure what to buy? Visit our showroom (by appt. only) and we can educate you and help you decide.`}
+              {`Coastal Cabinets & Closets offers framed cabinets, full access European cabinets (with no face-frame), traditional cabinets, modern cabinets, contemporary cabinets, and custom cabinets. As well, we offer a soft close hardware and an array of accessories. Are you not sure what to buy? Visit our showroom (by appt. only) and we can educate you and help you decide.`}
             </p>
           </ScrollMotionEffect>
         </div>

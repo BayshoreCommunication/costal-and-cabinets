@@ -4,7 +4,7 @@ import CallToAction from "@/components/shared/CallToAction";
 import Head from "next/head";
 import React from "react";
 export const metadata = {
-  title: ` `,
+  title: ``,
   description: ``,
   alternates: {
     canonical: "/",
@@ -18,13 +18,7 @@ export const metadata = {
 };
 
 const page = () => {
-  return (
-    <>
-      <HeroSection />
-      <CookiePolicy />
-      <CallToAction />
-    </>
-  );
+  return <>Cabinets Page</>;
 };
 
 export default page;

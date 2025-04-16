@@ -1,5 +1,4 @@
-import CallToAction from "@/components/shared/CallToAction";
-
+import React from "react";
 export const metadata = {
   title: ``,
   description: ``,
@@ -15,11 +14,7 @@ export const metadata = {
 };
 
 const page = () => {
-  return (
-    <>
-      <CallToAction />
-    </>
-  );
+  return <>Cabinets Page</>;
 };
 
 export default page;

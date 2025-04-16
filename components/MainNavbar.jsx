@@ -55,18 +55,12 @@ const MainNavbar = () => {
   const menuItems = useMemo(
     () => [
       { title: "Home", slug: "/" },
-      // { title: "Cabinets", slug: "" },
-      // cabinets
       { title: "About Us", slug: "/about" },
-      //about
-      { title: "Contractor Program", slug: "/contractor-program" },
-      // { title: "Blog", slug: "" },
-      // blog
-      { title: "Consumer Awareness", slug: "/consumer-awareness" },
-      // { title: "Testimonials", slug: "/testimonials" },
-      // testimonials
-      // { title: "Contact Us", slug: "" },
-      // contact
+      { title: "Manufactured Cabinets", slug: "/manufactured-cabinets" },
+      { title: "Custom Cabinets", slug: "/custom-cabinets" },
+      { title: "Closets", slug: "/closets" },
+      { title: "Contractors", slug: "/contractors" },
+      { title: "Blogs", slug: "blogs" },
     ],
     []
   );
@@ -74,17 +68,12 @@ const MainNavbar = () => {
   const navLogoList = useMemo(
     () => [
       { title: "Home", slug: "/" },
-      // { title: "Cabinets", slug: "" },
-      // cabinets
       { title: "About Us", slug: "/about" },
-
-      { title: "Contractor Program", slug: "/contractor-program" },
-      // { title: "Blog", slug: "" },
-      // blog
-      { title: "Testimonials", slug: "" },
-      // testimonials
-      { title: "Contact Us", slug: "" },
-      // contact
+      { title: "Manufactured Cabinets", slug: "/manufactured-cabinets" },
+      { title: "Custom Cabinets", slug: "/custom-cabinets" },
+      { title: "Closets", slug: "/closets" },
+      { title: "Contractors", slug: "/contractors" },
+      { title: "CCC Blogs", slug: "ccc-blogs" },
     ],
     []
   );
@@ -108,7 +97,7 @@ const MainNavbar = () => {
       <div className="bg-primary w-full navbar ">
         <div className="bg-white hidden md:block">
           <div className="flex items-center container  justify-between">
-            <div className=" flex items-center gap-x-10 2xl:gap-x-16">
+            <div className=" flex items-center gap-x-6 2xl:gap-x-8">
               <Link href={"/"}>
                 <Image
                   src="/assets/site-logo/logo.png"
@@ -122,59 +111,25 @@ const MainNavbar = () => {
 
             <div className="">
               <div className="flex items-center justify-stretch gap-x-2  xl:gap-x-8">
-                {menuItems.map((el, index) =>
-                  el?.title === "Practice Areas" ? (
-                    <div
-                      key={index}
-                      className="relative inline-block"
-                      onMouseEnter={toggleDropdown}
-                      onMouseLeave={toggleDropdown}
-                    >
-                      <div className="group">
-                        <div className="flex items-center gap-1 ">
-                          <Link
-                            href={el?.slug}
-                            className={`flex items-center gap-x-1 cursor-pointer text-black text-sm xl:text-[16px] font-medium capitalize hover:text-secondary ${pathname === el.slug || setPathSlug ? " border border-secondary rounded-full text-secondary py-1 lg:py-2 px-2 lg:px-5" : ""} `}
-                          >
-                            Practice Areas
-                            <span>
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                fill="currentColor"
-                                className={`size-4 font-black transform transition-transform duration-200 ${isDropdownVisible ? "rotate-0" : "rotate-180"}`}
-                              >
-                                <path
-                                  fillRule="evenodd"
-                                  d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
-                                  clipRule="evenodd"
-                                />
-                              </svg>
-                            </span>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  ) : (
-                    <Link
-                      key={el.slug}
-                      href={`${el.slug}`}
-                      className={`cursor-pointer text-black text-sm xl:text-[16px] font-medium capitalize hover:text-secondary ${pathname === el.slug ? " border border-secondary rounded-full text-secondary py-1 lg:py-2 px-2 lg:px-5" : ""} `}
-                    >
-                      {el.title}
-                    </Link>
-                  )
-                )}
+                {menuItems.map((el, index) => (
+                  <Link
+                    key={el.slug}
+                    href={`${el.slug}`}
+                    className={`cursor-pointer text-black text-sm xl:text-[16px] font-medium capitalize hover:text-secondary ${pathname === el.slug ? " border border-secondary rounded-full text-secondary py-1 lg:py-2 px-2 lg:px-3" : ""} `}
+                  >
+                    {el.title}
+                  </Link>
+                ))}
               </div>
             </div>
 
             <div className="group  inline-block">
-              <Link href="tel:9545290695">
+              <Link href="tel:+1 813-697-5752">
                 <button className="relative overflow-hidden bg-secondary  py-2  md:px-1 lg:px-1 xl:px-2 rounded-lg">
                   <div className="relative z-10 flex items-center justify-center gap-x-0 xl:gap-x-2  px-2">
                     <BsTelephoneForwardFill className="text-white size-4  xl:size-5" />
                     <h6 className=" transition-colors duration-300 text-white font-medium text-sm lg:text-base ">
-                      954-529-0695
+                      +1 813-697-5752
                     </h6>
                   </div>
 

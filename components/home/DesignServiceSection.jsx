@@ -26,34 +26,38 @@ const DesignServiceSection = () => {
                 <h2 className="text-4xl lg:text-5xl font-bold mb-3 lg:mb-5 xl:mb-8">
                   Design Service
                 </h2>
-                <ul className="text-lg md:text-xl text-[#555555]  space-y-2 lg:space-y-5">
+                <ul className="text-lg md:text-xl text-[#555555] space-y-2 lg:space-y-5">
                   <li className="flex items-center gap-x-2">
                     <GrRadialSelected />
-                    Kitchens, Vanities, Closets and more
+                    Manufactured Cabinets
                   </li>
                   <li className="flex items-center gap-x-2">
                     <GrRadialSelected />
-                    On-Site Measuring
+                    Custom Cabinets
                   </li>
                   <li className="flex items-center gap-x-2">
                     <GrRadialSelected />
-                    Showroom or Video Meeting
+                    RTA Cabinets
                   </li>
                   <li className="flex items-center gap-x-2">
                     <GrRadialSelected />
-                    Selection Assistance
+                    Modern Cabinets
                   </li>
                   <li className="flex items-center gap-x-2">
                     <GrRadialSelected />
-                    3D Renderings
+                    Shaker Cabinets
                   </li>
                   <li className="flex items-center gap-x-2">
                     <GrRadialSelected />
-                    Elevations
+                    Frameless Cabinets
                   </li>
-                  <li className="flex items-center gap-x-2">
+                  <li className="flex items-center gap-x-2 font-semibold">
                     <GrRadialSelected />
-                    Samples and Showroom
+                    Contractor Program
+                  </li>
+                  <li className="flex items-center gap-x-2 font-semibold">
+                    <GrRadialSelected />
+                    Consumer Awareness
                   </li>
                 </ul>
 
