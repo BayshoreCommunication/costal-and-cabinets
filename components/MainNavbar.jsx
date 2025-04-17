@@ -124,12 +124,12 @@ const MainNavbar = () => {
             </div>
 
             <div className="group  inline-block">
-              <Link href="tel:+1 813-697-5752">
+              <Link href="tel:+1 813-621-8932">
                 <button className="relative overflow-hidden bg-secondary  py-2  md:px-1 lg:px-1 xl:px-2 rounded-lg">
                   <div className="relative z-10 flex items-center justify-center gap-x-0 xl:gap-x-2  px-2">
                     <BsTelephoneForwardFill className="text-white size-4  xl:size-5" />
                     <h6 className=" transition-colors duration-300 text-white font-medium text-sm lg:text-base ">
-                      +1 813-697-5752
+                      +1 813-621-8932
                     </h6>
                   </div>
 

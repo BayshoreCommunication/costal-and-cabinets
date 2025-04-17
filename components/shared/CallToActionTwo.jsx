@@ -20,10 +20,10 @@ const CallToActionTwo = () => {
               8265 Causeway Blvd., Suite F, Tampa, FL 33619
             </p>
             <Link
-              href="tel:+1 813-697-5752"
+              href="tel:+1 813-621-8932"
               className="text-lg font-semibold text-secondary hover:underline duration-300"
             >
-              +1 813-697-5752
+              +1 813-621-8932
             </Link>
           </div>
         </div>

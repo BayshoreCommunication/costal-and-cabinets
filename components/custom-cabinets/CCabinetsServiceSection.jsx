@@ -70,7 +70,7 @@ const CCabinetsServiceSection = () => {
                   </li>
                 </ul>
                 <div className="group mt-8 inline-block">
-                  <Link href="tel:+1 813-697-5752">
+                  <Link href="tel:+1 813-621-8932">
                     <button className="relative overflow-hidden bg-primary text-white py-2 lg:py-3 lg:px-8 px-4 rounded-md">
                       <span className="relative z-10 transition-colors duration-300">
                         Call Costal & Cabinets
@@ -96,12 +96,12 @@ const CCabinetsServiceSection = () => {
               </p>
 
               <div className="group mt-8 inline-block">
-                <Link href="tel:+1 813-697-5752">
+                <Link href="tel:+1 813-621-8932">
                   <button className="relative overflow-hidden bg-secondary  py-2 lg:py-3 lg:px-8 px-4 rounded-md">
                     <div className="relative z-10 flex items-center justify-center gap-x-0 xl:gap-x-2  px-2">
                       <BsTelephoneForwardFill className="text-white size-4  xl:size-5" />
                       <h6 className=" transition-colors duration-300 text-white font-medium text-sm lg:text-base ">
-                        +1 813-697-5752
+                        +1 813-621-8932
                       </h6>
                     </div>
 
