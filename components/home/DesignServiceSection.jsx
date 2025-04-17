@@ -23,10 +23,10 @@ const DesignServiceSection = () => {
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-start justify-between">
             <ScrollMotionEffect effect="fade-right" duration="2000">
               <div className="w-full h-auto max-w-lg">
-                <h2 className="text-4xl lg:text-5xl font-bold mb-3 lg:mb-5 xl:mb-8">
+                <h2 className="text-4xl lg:text-[40px] text-[#222222] font-[700] mb-3 lg:mb-5 xl:mb-8">
                   Design Service
                 </h2>
-                <ul className="text-lg md:text-xl text-[#555555] space-y-2 lg:space-y-5">
+                <ul className="text-lg md:text-[22px] text-[#555555] space-y-2 lg:space-y-5">
                   <li className="flex items-center gap-x-2">
                     <GrRadialSelected />
                     Manufactured Cabinets

@@ -25,7 +25,7 @@ const PageHeroSection = ({ image, title, link }) => {
         <div className="container pt-10 md:pt-14 lg:pt-20 xl:pt-24 pb-10 ">
           <div className="mt-4 2xl:mt-8 te">
             <ScrollMotionEffect {...animationProps}>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-start ] mx-auto">
+              <h1 className="text-3xl md:text-4xl lg:text-[40px]  font-[700] text-white text-start ] mx-auto">
                 {title}
               </h1>
             </ScrollMotionEffect>

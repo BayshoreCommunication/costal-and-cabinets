@@ -16,7 +16,7 @@ const DeliverySection = () => {
             <ScrollMotionEffect effect="fade-right" duration="2000">
               {" "}
               <div className="w-full h-auto max-w-lg">
-                <h2 className="text-4xl lg:text-5xl font-bold mb-3 lg:mb-5 xl:mb-8">
+                <h2 className="text-4xl lg:text-[40px] text-[#222222] font-[700]  mb-3 lg:mb-5 xl:mb-8">
                   Delivery
                 </h2>
                 <ul className="text-lg md:text-xl text-[#555555] space-y-2 lg:space-y-5">
