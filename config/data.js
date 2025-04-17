@@ -31,45 +31,37 @@ export const heroData = [
 export const manufacturedCabinetsHeroData = [
   {
     id: 1,
-    backgroundImage: "/assets/homepage/slides1.jpg",
+    backgroundImage: "/assets/manufactured-cabinets/slides1.jpg",
   },
   {
     id: 2,
-    backgroundImage: "/assets/homepage/slides2.jpg",
+    backgroundImage: "/assets/manufactured-cabinets/slides2.jpg",
   },
   {
     id: 3,
-    backgroundImage: "/assets/homepage/slides3.jpg",
+    backgroundImage: "/assets/manufactured-cabinets/slides3.jpg",
   },
   {
     id: 4,
-    backgroundImage: "/assets/homepage/slides4.jpg",
-  },
-  {
-    id: 5,
-    backgroundImage: "/assets/homepage/slides1.jpg",
+    backgroundImage: "/assets/manufactured-cabinets/slides4.jpg",
   },
 ];
 export const customCabinetsHeroData = [
   {
     id: 1,
-    backgroundImage: "/assets/homepage/slides1.jpg",
+    backgroundImage: "/assets/custom-cabinets/slides1.jpg",
   },
   {
     id: 2,
-    backgroundImage: "/assets/homepage/slides2.jpg",
+    backgroundImage: "/assets/custom-cabinets/slides2.jpg",
   },
   {
     id: 3,
-    backgroundImage: "/assets/homepage/slides3.jpg",
+    backgroundImage: "/assets/custom-cabinets/slides3.jpg",
   },
   {
     id: 4,
-    backgroundImage: "/assets/homepage/slides4.jpg",
-  },
-  {
-    id: 5,
-    backgroundImage: "/assets/homepage/slides1.jpg",
+    backgroundImage: "/assets/custom-cabinets/slides4.jpg",
   },
 ];
 
