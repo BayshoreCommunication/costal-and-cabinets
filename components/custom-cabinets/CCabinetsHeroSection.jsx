@@ -38,7 +38,7 @@ const CCabinetsHeroSection = () => {
   }, []);
 
   return (
-    <div div className="w-full min-h-svh mt-[95px]">
+    <div div className="w-full min-h-svh mt-[90px]">
       <div className="flex items-center">
         <button
           ref={prevButtonRef}

@@ -18,7 +18,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className="w-full min-h-svh mt-[95px]">
+    <div className="w-full min-h-svh mt-[90px]">
       <MCabinetsHeroSection />
       <MCabinetsServiceSection />
     </div>
