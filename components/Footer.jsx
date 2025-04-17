@@ -13,24 +13,28 @@ const Footer = () => {
             <div className=" flex justify-center items-center gap-5">
               <Link
                 href="https://www.facebook.com/CoastalCabinetsandClosets"
+                target="_blank"
                 className="w-10 h-10 bg-[#313034] rounded-full flex items-center justify-center hover:bg-secondary duration-300"
               >
                 <FaFacebookF />
               </Link>
               <Link
                 href="https://www.instagram.com/coastalcabinetsandclosets"
+                target="_blank"
                 className="w-10 h-10 bg-[#313034] rounded-full flex items-center justify-center hover:bg-secondary duration-300"
               >
                 <FaInstagram />
               </Link>
               <Link
                 href="https://x.com/CabinetCoastal"
+                target="_blank"
                 className="w-10 h-10 bg-[#313034] rounded-full flex items-center justify-center hover:bg-secondary duration-300"
               >
                 <FaXTwitter />
               </Link>
               <Link
                 href="https://www.linkedin.com/company/coastal-cabinets-closets/"
+                target="_blank"
                 className="w-10 h-10 bg-[#313034] rounded-full flex items-center justify-center hover:bg-secondary duration-300"
               >
                 <FaLinkedinIn />
