@@ -3,8 +3,8 @@ import CCabinetsServiceSection from "@/components/custom-cabinets/CCabinetsServi
 
 import React from "react";
 export const metadata = {
-  title: ``,
-  description: ``,
+  title: `Custom Cabinet Design in Florida | Kitchen, Bath & Office`,
+  description: `Coastal Cabinets and Closets specializes in custom cabinet design for kitchens, bathrooms, and home offices. Built to fit your space and style with precision and care.`,
   alternates: {
     canonical: "/",
     languages: {
@@ -18,10 +18,10 @@ export const metadata = {
 
 const page = () => {
   return (
-    <>
+    <d>
       <CCabinetsHeroSection />
       <CCabinetsServiceSection />
-    </>
+    </d>
   );
 };
 

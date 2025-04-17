@@ -38,7 +38,7 @@ const CCabinetsHeroSection = () => {
   }, []);
 
   return (
-    <>
+    <div div className="w-full min-h-svh mt-[95px]">
       <div className="flex items-center">
         <button
           ref={prevButtonRef}
@@ -103,7 +103,7 @@ const CCabinetsHeroSection = () => {
           <FaArrowRight size={20} />
         </button>
       </div>
-    </>
+    </div>
   );
 };
 

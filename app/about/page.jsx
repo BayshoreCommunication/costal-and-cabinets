@@ -4,8 +4,9 @@ import PageHeroSection from "@/components/shared/PageHeroSection";
 import WhatPeopleSay from "@/components/shared/WhatPeopleSay";
 
 export const metadata = {
-  title: ``,
-  description: ``,
+  title: `Family-Owned Cabinet Company in Florida | 33+ Years Experience`,
+  description: `Coastal Cabinets and Closets is a family-owned cabinet company offering custom cabinetry, closet systems, and professional design services across Florida for over 33 years.
+`,
   alternates: {
     canonical: "/",
     languages: {
@@ -19,7 +20,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <>
+    <div className="w-full min-h-svh mt-[95px]">
       <PageHeroSection
         image={"/assets/shared/aboutpage.jpg"}
         title={"About Us"}
@@ -28,7 +29,7 @@ const page = () => {
       <AboutDetails />
       <WhatPeopleSay />
       <CallToActionTwo />
-    </>
+    </div>
   );
 };
 

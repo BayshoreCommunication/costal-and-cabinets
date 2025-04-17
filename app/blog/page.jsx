@@ -2,8 +2,10 @@ import BlogMainSection from "@/components/blogs/BlogMainSection";
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
 export const metadata = {
-  title: ``,
-  description: ``,
+  title: `Cabinetry Ideas & Closet Design Tips | Coastal Cabinets Blog
+`,
+  description: `Discover expert tips on custom cabinetry, closet design trends, and home organization solutions. Learn from the professionals at Coastal Cabinets and Closets.
+`,
   alternates: {
     canonical: "/",
     languages: {
@@ -17,7 +19,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className="min-h-screen">
+    <div className="w-full min-h-svh mt-[95px]">
       <PageHeroSection
         image={"/assets/shared/aboutpage.jpg"}
         title={"Blogs"}

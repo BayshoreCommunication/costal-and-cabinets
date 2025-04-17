@@ -2,8 +2,9 @@ import MCabinetsHeroSection from "@/components/manufactured-cabinets/MCabinetsHe
 import MCabinetsServiceSection from "@/components/manufactured-cabinets/MCabinetsServiceSection";
 import React from "react";
 export const metadata = {
-  title: ``,
-  description: ``,
+  title: `Affordable Manufactured Cabinets in Florida | Kitchen & Bathroom`,
+  description: ` Explore high-quality manufactured cabinets for kitchens and bathrooms. Coastal Cabinets and Closets offers durable, affordable cabinet solutions designed to elevate your home.
+`,
   alternates: {
     canonical: "/",
     languages: {
@@ -17,10 +18,10 @@ export const metadata = {
 
 const page = () => {
   return (
-    <>
+    <div className="w-full min-h-svh mt-[95px]">
       <MCabinetsHeroSection />
       <MCabinetsServiceSection />
-    </>
+    </div>
   );
 };
 

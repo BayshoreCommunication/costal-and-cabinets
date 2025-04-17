@@ -1,4 +1,4 @@
 User-agent: *
+Disallow: 
 Disallow: /cgi-bin/
-
-Sitemap: 
+Sitemap: https://coastalcabinetsandclosets.com/sitemap.xml

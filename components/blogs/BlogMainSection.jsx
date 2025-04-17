@@ -71,7 +71,7 @@ const BlogMainSection = async () => {
               href={blog.link}
               className="inline-block mt-4 text-blue-600 hover:underline font-medium"
             >
-              Call Coastal Cabinets →
+              Read More →
             </a>
           </div>
         ))}

@@ -7,8 +7,10 @@ import CallToAction from "@/components/shared/CallToAction";
 import CallToActionTwo from "@/components/shared/CallToActionTwo";
 
 export const metadata = {
-  title: `Coastal Cabinets And Closets`,
-  description: ``,
+  title: `Custom Cabinets, Closet Design & Storage Solutions in Florida
+`,
+  description: `Meta Description: Get expert custom cabinets, closet design, and home storage solutions with Coastal Cabinets and Closets. Serving Florida for over 33 years with unmatched craftsmanship and customer service.
+`,
   alternates: {
     canonical: "/",
     languages: {
@@ -22,7 +24,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="w-full min-h-svh mt-[100px]">
+    <main className="w-full min-h-svh mt-[95px]">
       <HeroSection />
       <DesignServiceSection />
       <SalesSection />
