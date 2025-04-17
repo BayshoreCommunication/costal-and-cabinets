@@ -1,3 +1,4 @@
+import BlogMainSection from "@/components/blogs/BlogMainSection";
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
 export const metadata = {
@@ -22,6 +23,7 @@ const page = () => {
         title={"Blogs"}
         link={"Blogs"}
       />
+      <BlogMainSection />
     </div>
   );
 };

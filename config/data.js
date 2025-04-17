@@ -68,27 +68,53 @@ export const testimonialsData = [
   },
 ];
 
-// {
-//   name: "Jane Cooper",
-//   review:
-//     "Words can not express the gratitude I have for you and your team. As soon as you took over my case, you and your team worked diligently on a resolution. Thank you so much for treating me as a person and showing so much care. You definitely made me feel at ease that my case was in great hands. Thank you so much!!",
-//   rating: 5,
-// },
-// {
-//   name: "Theresa Webb",
-//   review:
-//     "Words can not express the gratitude I have for you and your team. As soon as you took over my case, you and your team worked diligently on a resolution. Thank you so much for treating me as a person and showing so much care. You definitely made me feel at ease that my case was in great hands. Thank you so much!!",
-//   rating: 5,
-// },
-// {
-//   name: "Wade Warren",
-//   review:
-//     "Words can not express the gratitude I have for you and your team. As soon as you took over my case, you and your team worked diligently on a resolution. Thank you so much for treating me as a person and showing so much care. You definitely made me feel at ease that my case was in great hands. Thank you so much!!",
-//   rating: 5,
-// },
-// {
-//   name: "Albert Flores",
-//   review:
-//     "Words can not express the gratitude I have for you and your team. As soon as you took over my case, you and your team worked diligently on a resolution. Thank you so much for treating me as a person and showing so much care. You definitely made me feel at ease that my case was in great hands. Thank you so much!!",
-//   rating: 5,
-// },
+export const blogsData = [
+  {
+    image: "/images/wine-rack-modern-white.jpg",
+    title: "Modern White Wall Wine Rack (WWR-MW)",
+    description:
+      "Elevate your kitchen with our sleek modern white wine rack, ready-to-assemble and built to impress.",
+    link: "/collections/modern-white-wall-wine-rack",
+    slug: "modern-white-wall-wine-rack",
+  },
+  {
+    image: "/images/blog-img.png",
+    title: "Shaker Oak Wall Wine Rack (WWR-SO)",
+    description:
+      "Crafted from premium oak, this shaker-style rack adds warmth and function to your kitchen setup.",
+    link: "/collections/shaker-oak-wall-wine-rack",
+    slug: "shaker-oak-wall-wine-rack",
+  },
+  {
+    image: "/images/wine-rack-industrial-black.jpg",
+    title: "Industrial Black Wall Wine Rack (WWR-IB)",
+    description:
+      "A bold industrial design with matte black finish, perfect for modern loft-style kitchens.",
+    link: "/collections/industrial-black-wall-wine-rack",
+    slug: "industrial-black-wall-wine-rack",
+  },
+  {
+    image: "/images/wine-rack-ladder-style.jpg",
+    title: "Ladder Style Wine Display Rack (WWR-LD)",
+    description:
+      "Show off your wine collection with this stylish ladder-style display rack — lightweight and elegant.",
+    link: "/collections/ladder-style-wine-display-rack",
+    slug: "ladder-style-wine-display-rack",
+  },
+  {
+    image: "/images/wine-rack-rustic-wood.jpg",
+    title: "Rustic Wall Wine Rack with Hooks (WWR-RW)",
+    description:
+      "Handcrafted with rustic charm, this wall-mounted rack includes hooks for glasses and accessories.",
+    link: "/collections/rustic-wall-wine-rack",
+    slug: "rustic-wall-wine-rack",
+  },
+  {
+    image: "/images/wine-rack-floating-metal.jpg",
+    title: "Floating Metal Wine Rack (WWR-FM)",
+    description:
+      "Minimalist floating metal design to give your kitchen a clean and open aesthetic.",
+    link: "/collections/floating-metal-wine-rack",
+    slug: "floating-metal-wine-rack",
+  },
+];

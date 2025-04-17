@@ -60,7 +60,7 @@ const MainNavbar = () => {
       { title: "Custom Cabinets", slug: "/custom-cabinets" },
       { title: "Closets", slug: "/closets" },
       { title: "Contractors", slug: "/contractors" },
-      { title: "Blogs", slug: "blogs" },
+      { title: "Blog", slug: "blog" },
     ],
     []
   );
