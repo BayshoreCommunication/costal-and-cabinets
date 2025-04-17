@@ -9,8 +9,10 @@ const CallToAction = () => {
     <section className="w-full bg-[#eff2f5]">
       <div className="container py-10 md:py-20">
         <div className="flex flex-col  items-center justify-center text-center gap-4">
-          <ScrollMotionEffect effect="fade-right" duration="2000">
-            <h2 className={`font-semibold text-2xl md:text-4xl  text-center `}>
+          <div>
+            <h2
+              className={`text-4xl lg:text-[40px] text-[#222222] font-[700] leading-normal  text-center `}
+            >
               When You Work With Coastal Cabinets and Closets, Decades of
               Experience Goes To Work For You.
             </h2>
@@ -25,7 +27,7 @@ const CallToAction = () => {
               a lot of reasons we are 5-star-rated. Most of all, we love and
               take pride in what we do, and having happy customers.
             </p>
-          </ScrollMotionEffect>
+          </div>
 
           <div className="group mt-8 inline-block">
             <Link href="tel:+1 813-621-8932">

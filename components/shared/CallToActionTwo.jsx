@@ -9,12 +9,11 @@ const CallToActionTwo = () => {
     <section className="w-full bg-white">
       <div className="container py-10 md:py-20">
         <div className="flex flex-col  items-center justify-center text-center gap-4">
-          <ScrollMotionEffect effect="fade-right" duration="2000">
-            <h2 className={`font-semibold text-2xl md:text-4xl  text-center `}>
-              Need Cabinets? Call Coastal Cabinets!
-            </h2>
-          </ScrollMotionEffect>
-
+          <h2
+            className={`text-4xl lg:text-[40px] text-[#222222] font-[700]  text-center `}
+          >
+            Need Cabinets? Call Coastal Cabinets!
+          </h2>
           <div className="group mt-2 inline-block">
             <p className="mb-3">
               8265 Causeway Blvd., Suite F, Tampa, FL 33619

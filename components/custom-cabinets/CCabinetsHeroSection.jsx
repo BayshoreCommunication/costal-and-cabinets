@@ -72,7 +72,7 @@ const CCabinetsHeroSection = () => {
 
                 <Image
                   key={index}
-                  className="absolute inset-0 object-cover bg-bottom w-full h-full zoom-in-fade"
+                  className=" inset-0 object-cover bg-bottom w-full h-full zoom-in-fade"
                   width={1920}
                   height={700}
                   src={testimonial.backgroundImage}
@@ -80,18 +80,18 @@ const CCabinetsHeroSection = () => {
                 />
 
                 {/* Gradient overlay */}
-                <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/50 to-black/50" />
+                {/* <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/50 to-black/50" /> */}
 
                 {/* Centered text */}
-                <div className="container relative z-[2] flex flex-col items-center justify-center w-full">
-                  <ScrollMotionEffect effect="fade-left" duration="1000">
-                    <div className="flex items-center justify-center max-w-7xl w-full">
-                      <h1 className="text-2xl md:text-[60px] font-bold text-white text-center leading-snug md:leading-tight">
-                        {testimonial.heading}
-                      </h1>
-                    </div>
-                  </ScrollMotionEffect>
-                </div>
+                {/* <div className="container relative z-[2] flex flex-col items-center justify-center w-full">
+                   <ScrollMotionEffect effect="fade-left" duration="1000">
+                     <div className="flex items-center justify-center max-w-7xl w-full">
+                       <h1 className="text-2xl md:text-[60px] font-bold text-white text-center leading-snug md:leading-tight">
+                         {testimonial.heading}
+                       </h1>
+                     </div>
+                   </ScrollMotionEffect>
+                 </div> */}
               </div>
             </SwiperSlide>
           ))}

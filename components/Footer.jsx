@@ -40,11 +40,11 @@ const Footer = () => {
               Copyright © Coastal Cabinets and Closets 2025. All Rights
               Reserved. || Developed By:{" "}
               <Link
-                href="https://www.bayshorecommunication.com/"
+                href="https://acuitymarketing.us/"
                 target="_blank"
                 className="text-secondary hover:underline duration-300"
               >
-                Bayshore Communication
+                AcuityMarketing.us
               </Link>
             </p>
           </div>
