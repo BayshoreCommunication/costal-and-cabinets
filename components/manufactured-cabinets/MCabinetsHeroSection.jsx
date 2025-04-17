@@ -10,7 +10,7 @@ import {
   Navigation,
   Pagination,
 } from "swiper/modules";
-import { heroData } from "@/config/data";
+import { manufacturedCabinetsHeroData } from "@/config/data";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 import "swiper/css";
@@ -54,7 +54,7 @@ const MCabinetsHeroSection = () => {
           keyboard={{ enabled: true }}
           loop={true}
           autoplay={{
-            delay: 3000,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           grabCursor={true}
@@ -62,28 +62,30 @@ const MCabinetsHeroSection = () => {
           modules={[Navigation, Pagination, Keyboard, Autoplay, EffectFade]}
           className="mySwiper"
         >
-          {[...heroData].reverse().map((testimonial, index) => (
-            <SwiperSlide>
-              <div
-                className="relative w-full h-[500px] md:h-[700px] flex items-center justify-center "
-                key={index}
-              >
-                {/* Background image */}
-
-                <Image
+          {[...manufacturedCabinetsHeroData]
+            .reverse()
+            .map((testimonial, index) => (
+              <SwiperSlide>
+                <div
+                  className="relative w-full h-[500px] md:h-[700px] flex items-center justify-center "
                   key={index}
-                  className=" inset-0 object-cover bg-bottom w-full h-full zoom-in-fade"
-                  width={1920}
-                  height={700}
-                  src={testimonial.backgroundImage}
-                  alt="Bg Image"
-                />
+                >
+                  {/* Background image */}
 
-                {/* Gradient overlay */}
-                {/* <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/50 to-black/50" /> */}
+                  <Image
+                    key={index}
+                    className=" inset-0 object-cover bg-bottom w-full h-full zoom-in-fade"
+                    width={1920}
+                    height={700}
+                    src={testimonial.backgroundImage}
+                    alt="Bg Image"
+                  />
 
-                {/* Centered text */}
-                {/* <div className="container relative z-[2] flex flex-col items-center justify-center w-full">
+                  {/* Gradient overlay */}
+                  {/* <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/50 to-black/50" /> */}
+
+                  {/* Centered text */}
+                  {/* <div className="container relative z-[2] flex flex-col items-center justify-center w-full">
                    <ScrollMotionEffect effect="fade-left" duration="1000">
                      <div className="flex items-center justify-center max-w-7xl w-full">
                        <h1 className="text-2xl md:text-[60px] font-bold text-white text-center leading-snug md:leading-tight">
@@ -92,9 +94,9 @@ const MCabinetsHeroSection = () => {
                      </div>
                    </ScrollMotionEffect>
                  </div> */}
-              </div>
-            </SwiperSlide>
-          ))}
+                </div>
+              </SwiperSlide>
+            ))}
         </Swiper>
         <button
           ref={nextButtonRef}

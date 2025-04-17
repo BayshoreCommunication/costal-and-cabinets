@@ -1,32 +1,75 @@
 export const heroData = [
   {
     id: 1,
+    backgroundImage: "/assets/banner/slides1.jpg",
+  },
+  {
+    id: 2,
+    backgroundImage: "/assets/banner/slides2.jpg",
+  },
+  {
+    id: 3,
+    backgroundImage: "/assets/banner/slides3.jpg",
+  },
+  {
+    id: 4,
+    backgroundImage: "/assets/banner/slides4.jpg",
+  },
+  {
+    id: 5,
+    backgroundImage: "/assets/banner/slides5.jpg",
+  },
+  {
+    id: 6,
+    backgroundImage: "/assets/banner/slides6.jpg",
+  },
+  {
+    id: 7,
+    backgroundImage: "/assets/banner/slides7.jpg",
+  },
+];
+export const manufacturedCabinetsHeroData = [
+  {
+    id: 1,
     backgroundImage: "/assets/homepage/slides1.jpg",
-    heading:
-      "Transform your kitchen into a 5-star culinary space with expert design",
   },
   {
     id: 2,
     backgroundImage: "/assets/homepage/slides2.jpg",
-    heading:
-      "Premium cabinets, sleek design, and full-service your dream kitchen starts here",
   },
   {
     id: 3,
     backgroundImage: "/assets/homepage/slides3.jpg",
-    heading: "From concept to completion, we bring your kitchen vision to life",
   },
   {
     id: 4,
     backgroundImage: "/assets/homepage/slides4.jpg",
-    heading:
-      "Designing kitchens that inspire—top-tier cabinetry, layouts, and renovations",
   },
   {
     id: 5,
     backgroundImage: "/assets/homepage/slides1.jpg",
-    heading:
-      "Elevate your home with stunning kitchen makeovers and custom cabinetry solutions",
+  },
+];
+export const customCabinetsHeroData = [
+  {
+    id: 1,
+    backgroundImage: "/assets/homepage/slides1.jpg",
+  },
+  {
+    id: 2,
+    backgroundImage: "/assets/homepage/slides2.jpg",
+  },
+  {
+    id: 3,
+    backgroundImage: "/assets/homepage/slides3.jpg",
+  },
+  {
+    id: 4,
+    backgroundImage: "/assets/homepage/slides4.jpg",
+  },
+  {
+    id: 5,
+    backgroundImage: "/assets/homepage/slides1.jpg",
   },
 ];
 

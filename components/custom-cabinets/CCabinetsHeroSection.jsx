@@ -10,7 +10,7 @@ import {
   Navigation,
   Pagination,
 } from "swiper/modules";
-import { heroData } from "@/config/data";
+import { customCabinetsHeroData } from "@/config/data";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 import "swiper/css";
@@ -54,7 +54,7 @@ const CCabinetsHeroSection = () => {
           keyboard={{ enabled: true }}
           loop={true}
           autoplay={{
-            delay: 3000,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           grabCursor={true}
@@ -62,7 +62,7 @@ const CCabinetsHeroSection = () => {
           modules={[Navigation, Pagination, Keyboard, Autoplay, EffectFade]}
           className="mySwiper"
         >
-          {[...heroData].reverse().map((testimonial, index) => (
+          {[...customCabinetsHeroData].reverse().map((testimonial, index) => (
             <SwiperSlide>
               <div
                 className="relative w-full h-[500px] md:h-[700px] flex items-center justify-center "

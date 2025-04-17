@@ -167,11 +167,12 @@ h1 {
 /* Popup button color */
 
 .navbar {
-  /* position: fixed; */
+  position: fixed;
   top: 0;
-  width: 100%;
-  display: block;
-  transition: top 0.3s;
+  left: 0;
+  right: 0;
+  transition: top 0.5s ease;
+  z-index: 50;
 }
 
 /* zoom in */

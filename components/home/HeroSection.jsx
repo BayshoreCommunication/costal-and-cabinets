@@ -54,7 +54,7 @@ const HeroSection = () => {
           keyboard={{ enabled: true }}
           loop={true}
           autoplay={{
-            delay: 3000,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           grabCursor={true}

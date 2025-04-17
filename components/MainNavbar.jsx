@@ -28,19 +28,29 @@ const debounce = (func, wait) => {
 };
 
 const MainNavbar = () => {
-  // useEffect(() => {
-  //   var prevScrollpos = window.scrollY;
-  //   window.onscroll = function () {
-  //     var currentScrollPos = window.scrollY;
+  useEffect(() => {
+    const navbar = document.querySelector(".navbar");
 
-  //     if (prevScrollpos > currentScrollPos) {
-  //       document.querySelector(".navbar").style.top = "0";
-  //     } else {
-  //       document.querySelector(".navbar").style.top = "-200px";
-  //     }
-  //     prevScrollpos = currentScrollPos;
-  //   };
-  // });
+    const handleScroll = () => {
+      if (!navbar) return;
+
+      const currentScrollPos = window.scrollY;
+
+      // Always apply the transition
+      navbar.style.transition = "top 0.3s ease-in-out";
+
+      if (currentScrollPos === 0) {
+        navbar.style.top = "0";
+      } else if (currentScrollPos > 200) {
+        navbar.style.top = "0";
+      } else {
+        navbar.style.top = "-100%";
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
@@ -78,26 +88,26 @@ const MainNavbar = () => {
     []
   );
 
-  // const handleScroll = useCallback(
-  //   debounce(() => {
-  //     setNavbarColor(window.scrollY >= 100);
-  //   }, 100),
-  //   []
-  // );
+  const handleScroll = useCallback(
+    debounce(() => {
+      setNavbarColor(window.scrollY >= 100);
+    }, 100),
+    []
+  );
 
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, [handleScroll]);
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [handleScroll]);
 
   return (
-    <section className={"relative z-50  "}>
+    <section className={"relative z-50 "}>
       <div className="bg-primary w-full navbar ">
-        <div className="bg-white hidden md:block shadow-xl ">
+        <div className="bg-white hidden md:block shadow-lg">
           <div className="flex items-center container  justify-between">
-            <div className=" flex items-center gap-x-6 2xl:gap-x-8">
+            <div className=" flex items-center gap-x-10 2xl:gap-x-16">
               <Link href={"/"}>
                 <Image
                   src="/assets/site-logo/logo.png"
