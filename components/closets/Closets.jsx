@@ -5,6 +5,7 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import { GrRadialSelected } from "react-icons/gr";
 import Image from "next/image";
 import { BsTelephoneForwardFill } from "react-icons/bs";
+import WhatPeopleSay from "../shared/WhatPeopleSay";
 
 const Closets = () => {
   return (
@@ -28,7 +29,7 @@ const Closets = () => {
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-start justify-between">
             <div>
               <Image
-                src="/assets/manufactured-cabinets/mc1.jpg"
+                src="/assets/closets/closets.png"
                 alt="Design Service"
                 width={1000}
                 height={1000}
@@ -75,6 +76,7 @@ const Closets = () => {
           </div>
         </div>
       </div>
+      <WhatPeopleSay />
       <div className="bg-[#eff2f5]">
         <div className="container  py-10 md:py-20">
           <div className="w-full h-auto text-center">
