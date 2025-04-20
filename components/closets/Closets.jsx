@@ -13,7 +13,8 @@ const Closets = () => {
       <div className="container py-10 md:py-20">
         <div className="max-w-6xl mx-auto text-center ">
           <p className="text-md md:text-lg text-[#55545A] text-center mb-4">
-            {`We offer multiple closet options for you to choose from.`}
+            {`We offer multiple closet programs for you to choose from.
+`}
           </p>
           <p className="text-md md:text-lg text-[#55545A] text-center mb-4">
             {`We can design a simple, low-cost system, or we can provide full-custom closets with interior lighting, glass doors, different textures and colors, and many amenities. `}
