@@ -10,7 +10,7 @@ const ContractorsDetails = () => {
       <div className="flex  md:flex-row flex-col items-start lg:items-center justify-between gap-2 lg:gap-8">
         <div className="flex-1">
           <Image
-            src={"/assets/aboutpage/about-bg.jpg"}
+            src={"/assets/ContractorProgram/about-bg.jpg"}
             width={500}
             height={500}
             alt="David Carter"

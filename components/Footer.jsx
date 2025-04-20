@@ -41,7 +41,7 @@ const Footer = () => {
               </Link>
             </div>
             <p className="text-center text-sm mt-5">
-              Copyright © Coastal Cabinets and Closets 2025. All Rights
+              Copyright © Coastal Cabinets and Closets, LLC 2025. All Rights
               Reserved. || Developed By:{" "}
               <Link
                 href="https://acuitymarketing.us/"

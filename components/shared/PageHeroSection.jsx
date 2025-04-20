@@ -24,7 +24,7 @@ const PageHeroSection = ({ image, title, link }) => {
 
           <div className="relative flex flex-col items-center justify-center w-full h-full z-40">
             <div className="container pt-10 md:pt-10 lg:pt-10 xl:pt-10 pb-10 ">
-              <div className="mt-4 2xl:mt-8 te">
+              <div className="mt-2 2xl:mt-3 ">
                 <h1 className="text-3xl md:text-4xl lg:text-[40px]  font-[700] text-white text-start ] mx-auto">
                   {title}
                 </h1>
