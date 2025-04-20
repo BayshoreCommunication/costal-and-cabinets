@@ -8,7 +8,7 @@ const WhatPeopleSay = () => {
   return (
     <div className="bg-white">
       <div className="container py-10 md:py-20">
-        <div className="max-w-5xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto text-center">
           <p className="text-md md:text-lg text-[#55545A] mb-4">
             We sell quality products that have passed John Kraft’s stringent
             requirements. The old adage goes, “You get what you pay for”. Be

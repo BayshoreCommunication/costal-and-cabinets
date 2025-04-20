@@ -10,7 +10,7 @@ const Closets = () => {
   return (
     <section className="bg-white">
       <div className="container py-10 md:py-20">
-        <div className="max-w-5xl mx-auto text-center ">
+        <div className="max-w-6xl mx-auto text-center ">
           <p className="text-md md:text-lg text-[#55545A] text-center mb-4">
             {`We offer multiple closet options for you to choose from.`}
           </p>

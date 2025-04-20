@@ -9,12 +9,15 @@ const DesignServiceSection = () => {
   return (
     <section className="bg-white">
       <div className="container py-10 md:py-20">
-        <div className="max-w-5xl mx-auto text-center ">
+        <div className="max-w-6xl mx-auto text-center ">
+          <h2 className="text-4xl lg:text-[40px] text-[#222222] font-[700]  mb-3 lg:mb-5 xl:mb-8">
+            Nobody Does What We Do
+          </h2>
           <p className="text-md md:text-lg text-[#55545A] text-center mb-4">
-            {`We help our customers simplify the cabinet purchase and remodeling experience with our recommendations and expert designs from 33 years of experience. Whether you are looking for shaker cabinets, modern cabinets, traditional cabinets, transitional cabinets or custom cabinets, we have you covered. Give us a ring to get the design and pricing process started.`}
+            {`We help our customers simplify the cabinet purchase and remodeling experience with our recommendations and expert designs from decades of experience. Whether you are looking for shaker cabinets, modern cabinets, traditional cabinets, transitional cabinets or custom cabinets, we have you covered. Give us a ring to get the design and pricing process started.`}
           </p>
           <p className="text-md md:text-lg text-[#55545A] text-center">
-            {`Our service areas are from Tampa to Marco Island and West Plam Beach to North Miami-Dade.`}
+            {`Our service areas are from Tampa to Marco Island and West Palm Beach to North Miami-Dade.`}
           </p>
         </div>
         <div className="mt-10 md:mt-12">

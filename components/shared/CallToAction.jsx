@@ -33,7 +33,7 @@ const CallToAction = () => {
             <Link href="tel:+1 813-621-8932">
               <button className="relative overflow-hidden bg-primary text-white py-2 lg:py-3 lg:px-8 px-4 rounded-md">
                 <span className="relative z-10 transition-colors duration-300">
-                  Call Coastal Cabinets
+                  Call Coastal Cabinets and Closets LLC
                 </span>
                 <span className="absolute inset-0 bg-secondary z-0 transform scale-x-0 origin-center group-hover:scale-x-100 transition-transform duration-500 ease-out"></span>
               </button>

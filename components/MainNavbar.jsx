@@ -37,12 +37,15 @@ const MainNavbar = () => {
       const currentScrollPos = window.scrollY;
 
       // Always apply the transition
-      navbar.style.transition = "top 0.3s ease-in-out";
+      navbar.style.transition =
+        "box-shadow 0.3s ease-in-out, top 0.3s ease-in-out";
 
       if (currentScrollPos === 0) {
         navbar.style.top = "0";
+        navbar.style.boxShadow = "none";
       } else if (currentScrollPos > 200) {
-        navbar.style.top = "0";
+        navbar.style.top = "0 ";
+        navbar.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.1)";
       } else {
         navbar.style.top = "-100%";
       }
@@ -105,7 +108,7 @@ const MainNavbar = () => {
   return (
     <section className={"relative z-50 "}>
       <div className="bg-primary w-full navbar ">
-        <div className="bg-white hidden md:block shadow-lg">
+        <div className="bg-white hidden md:block ">
           <div className="flex items-center container  justify-between">
             <div className=" flex items-center gap-x-10 2xl:gap-x-16">
               <Link href={"/"}>

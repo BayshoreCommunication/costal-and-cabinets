@@ -58,7 +58,7 @@ const DeliverySection = () => {
             </div>
             <div>
               <Image
-                src="/assets/homepage/sales.png"
+                src="/assets/homepage/deliverySection.png"
                 alt="Design Service"
                 width={1000}
                 height={1000}

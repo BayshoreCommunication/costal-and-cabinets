@@ -19,14 +19,6 @@ export const heroData = [
     id: 5,
     backgroundImage: "/assets/banner/slides5.jpg",
   },
-  {
-    id: 6,
-    backgroundImage: "/assets/banner/slides6.jpg",
-  },
-  {
-    id: 7,
-    backgroundImage: "/assets/banner/slides7.jpg",
-  },
 ];
 export const manufacturedCabinetsHeroData = [
   {
@@ -69,28 +61,28 @@ export const testimonialsData = [
   {
     name: "Micheal B",
     review:
-      "Although we live in Georgia, Kraft Built, Inc made our cabinet project for a property in Florida super easy! The positive reviews researched on Kraft Built were absolutely right on. John Kraft was totally professional, detailed and honest. His pricing was very reasonable with good quality. He made us feel very comfortable by communicating with us at all times. We will definitely use Kraft Built, Inc for any future jobs.",
+      "Although we live in Georgia, Coastal Cabinets and Closets, Inc made our cabinet project for a property in Florida super easy! The positive reviews researched on Coastal Cabinets and Closets were absolutely right on. John Kraft was totally professional, detailed and honest. His pricing was very reasonable with good quality. He made us feel very comfortable by communicating with us at all times. We will definitely use Coastal Cabinets and Closets, Inc for any future jobs.",
     rating: 5,
     image: "/assets/testimonial/testimonial-1.jpg",
   },
   {
     name: "Agent 9",
     review:
-      "I had a checklist of things that needed done in my kitchen. John was very personable and had great communication with me. He worked with me to find solutions for everything. He kept the work area very neat. I am very happy with the work done; it was a professional job. I will definitely use Kraft Built again.",
+      "I had a checklist of things that needed done in my kitchen. John was very personable and had great communication with me. He worked with me to find solutions for everything. He kept the work area very neat. I am very happy with the work done; it was a professional job. I will definitely use Coastal Cabinets and Closets again.",
     rating: 5,
     image: "/assets/testimonial/testimonial-1.jpg",
   },
   {
     name: "Tania T",
     review:
-      "I used Kraft Built Inc. for my kitchen and bathroom. I was completely satisfied. The sales person was professional and friendly. I recommend Kraft Built, Inc.s",
+      "I used Coastal Cabinets and Closets Inc. for my kitchen and bathroom. I was completely satisfied. The sales person was professional and friendly. I recommend Coastal Cabinets and Closets, Inc.s",
     rating: 5,
     image: "/assets/testimonial/testimonial-1.jpg",
   },
   {
     name: "Marcos S",
     review:
-      "John and his team are amazing. Their work is simply awesome. It has been 3 years and the kitchen still looks gorgeous, we had a small issue and they came by and fixed, no charge. So, I totally recommend Kraft Built for your project. Thank you Kraft Built!",
+      "John and his team are amazing. Their work is simply awesome. It has been 3 years and the kitchen still looks gorgeous, we had a small issue and they came by and fixed, no charge. So, I totally recommend Coastal Cabinets and Closets for your project. Thank you Coastal Cabinets and Closets!",
     rating: 5,
     image: "/assets/testimonial/testimonial-1.jpg",
   },
