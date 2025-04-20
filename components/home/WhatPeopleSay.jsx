@@ -16,7 +16,7 @@ const WhatPeopleSay = () => {
             that can vary in quality and features, greatly. See our recent blogs
             article,{" "}
             <Link
-              href="/blogs"
+              href="/blog"
               className="text-secondary italic hover:underline"
             >
               here

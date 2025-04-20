@@ -20,7 +20,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className="w-full min-h-svh mt-[90px]">
+    <div className="w-full   ">
       <PageHeroSection
         image={"/assets/aboutpage/aboutbg.jpg"}
         title={"About Us"}

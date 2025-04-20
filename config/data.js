@@ -67,7 +67,7 @@ export const testimonialsData = [
   {
     name: "Tania T",
     review:
-      "I used Coastal Cabinets and Closets Inc. for my kitchen and bathroom. I was completely satisfied. The sales person was professional and friendly. I recommend Coastal Cabinets and Closets, Inc.s",
+      "I used Coastal Cabinets and Closets Inc. for my kitchen and bathroom. I was completely satisfied. The sales person was professional and friendly. I recommend Coastal Cabinets and Closets, Inc.",
     rating: 5,
     image: "/assets/testimonial/testimonial-1.jpg",
   },

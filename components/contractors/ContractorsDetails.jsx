@@ -64,7 +64,7 @@ const ContractorsDetails = () => {
           <div className="w-full h-auto ">
             {/* max-w-lg lg:w-[512px] */}
             <h2 className="text-2xl lg:text-3xl text-[#222222] font-[700] mb-3 lg:mb-5 xl:mb-8">
-              Currently, we offer the following cabinet lines:
+              We offer:
             </h2>
             <ul className="grid grid-cols-1 lg:grid-cols-2  gap-4 lg:gap-8 text-lg md:text-xl text-[#555555] ">
               <li className="flex items-center gap-x-2">
