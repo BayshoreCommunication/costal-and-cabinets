@@ -12,7 +12,7 @@ const CCabinetsServiceSection = () => {
     <section className="bg-white">
       <div className="container py-10 md:py-20">
         <div className="max-w-6xl mx-auto text-center ">
-          <h2 className="text-4xl lg:text-[40px] text-[#222222] font-[700]  mb-3 lg:mb-4 xl:mb-5">
+          <h2 className="text-4xl lg:text-[40px] text-[#222222] font-[700]  mb-3 lg:mb-4 xl:mb-6">
             Nobody Does What We Do
           </h2>
           <p className="text-md md:text-lg text-[#55545A] text-center mb-4">

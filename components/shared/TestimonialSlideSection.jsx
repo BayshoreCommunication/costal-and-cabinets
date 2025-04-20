@@ -42,7 +42,7 @@ const TestimonialSlideSection = ({ className }) => {
           loop={true}
           grabCursor={true}
         >
-          {[...testimonialsData].reverse().map((testimonial, index) => (
+          {[...testimonialsData].map((testimonial, index) => (
             <SwiperSlide key={index}>
               <div className=" text-start  ">
                 <div className="flex items-start mb-4 gap-3">

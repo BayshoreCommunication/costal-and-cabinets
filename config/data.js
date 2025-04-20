@@ -47,10 +47,6 @@ export const customCabinetsHeroData = [
     id: 3,
     backgroundImage: "/assets/custom-cabinets/slides3.jpg",
   },
-  {
-    id: 4,
-    backgroundImage: "/assets/custom-cabinets/slides4.jpg",
-  },
 ];
 
 export const testimonialsData = [

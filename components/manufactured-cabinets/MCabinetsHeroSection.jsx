@@ -63,30 +63,28 @@ const MCabinetsHeroSection = () => {
             modules={[Navigation, Pagination, Keyboard, Autoplay, EffectFade]}
             className="mySwiper"
           >
-            {[...manufacturedCabinetsHeroData]
-              .reverse()
-              .map((testimonial, index) => (
-                <SwiperSlide>
-                  <div
-                    className=" w-full  flex items-center justify-center "
+            {[...manufacturedCabinetsHeroData].map((testimonial, index) => (
+              <SwiperSlide>
+                <div
+                  className=" w-full  flex items-center justify-center "
+                  key={index}
+                >
+                  {/* Background image */}
+
+                  <Image
                     key={index}
-                  >
-                    {/* Background image */}
+                    className=" inset-0 object-cover bg-bottom w-full h-full "
+                    width={1920}
+                    height={700}
+                    src={testimonial.backgroundImage}
+                    alt="Bg Image"
+                  />
 
-                    <Image
-                      key={index}
-                      className=" inset-0 object-cover bg-bottom w-full h-full "
-                      width={1920}
-                      height={700}
-                      src={testimonial.backgroundImage}
-                      alt="Bg Image"
-                    />
+                  {/* Gradient overlay */}
+                  {/* <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/30 to-black/30" /> */}
 
-                    {/* Gradient overlay */}
-                    {/* <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/50 to-black/50" /> */}
-
-                    {/* Centered text */}
-                    {/* <div className="container relative z-[2] flex flex-col items-center justify-center w-full">
+                  {/* Centered text */}
+                  {/* <div className="container relative z-[2] flex flex-col items-center justify-center w-full">
                    <ScrollMotionEffect effect="fade-left" duration="1000">
                      <div className="flex items-center justify-center max-w-7xl w-full">
                        <h1 className="text-2xl md:text-[60px] font-bold text-white text-center leading-snug md:leading-tight">
@@ -95,9 +93,9 @@ const MCabinetsHeroSection = () => {
                      </div>
                    </ScrollMotionEffect>
                  </div> */}
-                  </div>
-                </SwiperSlide>
-              ))}
+                </div>
+              </SwiperSlide>
+            ))}
           </Swiper>
           <button
             ref={nextButtonRef}

@@ -63,7 +63,7 @@ const CCabinetsHeroSection = () => {
             modules={[Navigation, Pagination, Keyboard, Autoplay, EffectFade]}
             className="mySwiper"
           >
-            {[...customCabinetsHeroData].reverse().map((testimonial, index) => (
+            {[...customCabinetsHeroData].map((testimonial, index) => (
               <SwiperSlide>
                 <div
                   className=" w-full  flex items-center justify-center "
@@ -81,7 +81,7 @@ const CCabinetsHeroSection = () => {
                   />
 
                   {/* Gradient overlay */}
-                  {/* <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/50 to-black/50" /> */}
+                  {/* <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/30 to-black/30" /> */}
 
                   {/* Centered text */}
                   {/* <div className="container relative z-[2] flex flex-col items-center justify-center w-full">

@@ -20,7 +20,7 @@ const PageHeroSection = ({ image, title, link }) => {
             layout="fill"
             priority
           />
-          <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/50 to-black/50" />
+          <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/30 to-black/30" />
 
           <div className="relative flex flex-col items-center justify-center w-full h-full z-40">
             <div className="container pt-10 md:pt-10 lg:pt-10 xl:pt-10 pb-10 ">
