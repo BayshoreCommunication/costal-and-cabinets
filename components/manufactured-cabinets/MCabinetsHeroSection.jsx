@@ -24,17 +24,19 @@ const MCabinetsHeroSection = () => {
   const swiperRef = useRef(null);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      if (swiperRef.current && swiperRef.current.swiper) {
-        const swiperInstance = swiperRef.current.swiper;
-        swiperInstance.params.navigation.prevEl = prevButtonRef.current;
-        swiperInstance.params.navigation.nextEl = nextButtonRef.current;
-        swiperInstance.navigation.init();
-        swiperInstance.navigation.update();
-      }
-    }, 100); // small delay for DOM to be ready
+    if (swiperRef.current && swiperRef.current.swiper) {
+      const swiperInstance = swiperRef.current.swiper;
 
-    return () => clearTimeout(timer);
+      // Attach navigation buttons manually
+      swiperInstance.params.navigation.prevEl = prevButtonRef.current;
+      swiperInstance.params.navigation.nextEl = nextButtonRef.current;
+      swiperInstance.navigation.init();
+      swiperInstance.navigation.update();
+
+      // Ensure autoplay resumes after interaction
+      swiperInstance.params.autoplay.disableOnInteraction = false;
+      swiperInstance.autoplay.start();
+    }
   }, []);
 
   return (
@@ -55,11 +57,11 @@ const MCabinetsHeroSection = () => {
             keyboard={{ enabled: true }}
             loop={true}
             autoplay={{
-              delay: 4000,
+              delay: 3000,
               disableOnInteraction: false,
             }}
             grabCursor={true}
-            speed={1000}
+            speed={800}
             modules={[Navigation, Pagination, Keyboard, Autoplay, EffectFade]}
             className="mySwiper"
           >
