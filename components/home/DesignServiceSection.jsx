@@ -10,7 +10,7 @@ const DesignServiceSection = () => {
     <section className="bg-white">
       <div className="container py-10 md:py-20">
         <div className="max-w-6xl mx-auto text-center ">
-          <h2 className="text-4xl lg:text-[40px] text-[#222222] font-[700]  mb-3 lg:mb-5 xl:mb-8">
+          <h2 className="text-4xl lg:text-[40px] text-[#222222] font-[700]  mb-3 lg:mb-4 xl:mb-5">
             Nobody Does What We Do
           </h2>
           <p className="text-md md:text-lg text-[#55545A] text-center mb-4">
@@ -64,7 +64,7 @@ const DesignServiceSection = () => {
                 <Link href="tel:+1 813-621-8932">
                   <button className="relative overflow-hidden bg-primary text-white py-2 lg:py-3 lg:px-8 px-4 rounded-md">
                     <span className="relative z-10 transition-colors duration-300">
-                      Call Costal & Cabinets
+                      Call Coastal Cabinets and Closets LLC
                     </span>
                     <span className="absolute inset-0 bg-secondary z-0 transform scale-x-0 origin-center group-hover:scale-x-100 transition-transform duration-500 ease-out"></span>
                   </button>

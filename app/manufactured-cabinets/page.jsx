@@ -1,5 +1,6 @@
 import MCabinetsHeroSection from "@/components/manufactured-cabinets/MCabinetsHeroSection";
 import MCabinetsServiceSection from "@/components/manufactured-cabinets/MCabinetsServiceSection";
+import WhatPeopleSay from "@/components/shared/WhatPeopleSay";
 import React from "react";
 export const metadata = {
   title: `Affordable Manufactured Cabinets in Florida | Kitchen & Bathroom`,
@@ -21,6 +22,7 @@ const page = () => {
     <div className="w-full min-h-svh mt-[90px]">
       <MCabinetsHeroSection />
       <MCabinetsServiceSection />
+      <WhatPeopleSay />
     </div>
   );
 };

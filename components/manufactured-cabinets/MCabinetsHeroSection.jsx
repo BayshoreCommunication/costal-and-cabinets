@@ -39,53 +39,54 @@ const MCabinetsHeroSection = () => {
 
   return (
     <>
-      <div className="flex items-center">
-        <button
-          ref={prevButtonRef}
-          className="hidden md:block text-white hover:bg-secondary duration-300 p-3 border border-white rounded-full z-40 absolute left-3 lg:left-9"
-        >
-          <FaArrowLeft size={20} />
-        </button>
+      <div className="container">
+        <div className="relative flex items-center">
+          <button
+            ref={prevButtonRef}
+            className="hidden md:block text-white hover:bg-secondary duration-300 p-3 border border-white rounded-full z-40 absolute left-3 lg:left-9"
+          >
+            <FaArrowLeft size={20} />
+          </button>
 
-        <Swiper
-          ref={swiperRef}
-          effect="fade"
-          pagination={{ clickable: true }}
-          keyboard={{ enabled: true }}
-          loop={true}
-          autoplay={{
-            delay: 4000,
-            disableOnInteraction: false,
-          }}
-          grabCursor={true}
-          speed={1000}
-          modules={[Navigation, Pagination, Keyboard, Autoplay, EffectFade]}
-          className="mySwiper"
-        >
-          {[...manufacturedCabinetsHeroData]
-            .reverse()
-            .map((testimonial, index) => (
-              <SwiperSlide>
-                <div
-                  className="relative w-full h-[500px] md:h-[700px] flex items-center justify-center "
-                  key={index}
-                >
-                  {/* Background image */}
-
-                  <Image
+          <Swiper
+            ref={swiperRef}
+            effect="fade"
+            pagination={{ clickable: true }}
+            keyboard={{ enabled: true }}
+            loop={true}
+            autoplay={{
+              delay: 4000,
+              disableOnInteraction: false,
+            }}
+            grabCursor={true}
+            speed={1000}
+            modules={[Navigation, Pagination, Keyboard, Autoplay, EffectFade]}
+            className="mySwiper"
+          >
+            {[...manufacturedCabinetsHeroData]
+              .reverse()
+              .map((testimonial, index) => (
+                <SwiperSlide>
+                  <div
+                    className=" w-full  flex items-center justify-center "
                     key={index}
-                    className=" inset-0 object-cover bg-bottom w-full h-full zoom-in-fade"
-                    width={1920}
-                    height={700}
-                    src={testimonial.backgroundImage}
-                    alt="Bg Image"
-                  />
+                  >
+                    {/* Background image */}
 
-                  {/* Gradient overlay */}
-                  {/* <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/50 to-black/50" /> */}
+                    <Image
+                      key={index}
+                      className=" inset-0 object-cover bg-bottom w-full h-full "
+                      width={1920}
+                      height={700}
+                      src={testimonial.backgroundImage}
+                      alt="Bg Image"
+                    />
 
-                  {/* Centered text */}
-                  {/* <div className="container relative z-[2] flex flex-col items-center justify-center w-full">
+                    {/* Gradient overlay */}
+                    {/* <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/50 to-black/50" /> */}
+
+                    {/* Centered text */}
+                    {/* <div className="container relative z-[2] flex flex-col items-center justify-center w-full">
                    <ScrollMotionEffect effect="fade-left" duration="1000">
                      <div className="flex items-center justify-center max-w-7xl w-full">
                        <h1 className="text-2xl md:text-[60px] font-bold text-white text-center leading-snug md:leading-tight">
@@ -94,16 +95,17 @@ const MCabinetsHeroSection = () => {
                      </div>
                    </ScrollMotionEffect>
                  </div> */}
-                </div>
-              </SwiperSlide>
-            ))}
-        </Swiper>
-        <button
-          ref={nextButtonRef}
-          className="hidden md:block text-white hover:bg-secondary duration-300 p-3 border border-white rounded-full z-40 absolute right-3 lg:right-9"
-        >
-          <FaArrowRight size={20} />
-        </button>
+                  </div>
+                </SwiperSlide>
+              ))}
+          </Swiper>
+          <button
+            ref={nextButtonRef}
+            className="hidden md:block text-white hover:bg-secondary duration-300 p-3 border border-white rounded-full z-40 absolute right-3 lg:right-9"
+          >
+            <FaArrowRight size={20} />
+          </button>
+        </div>
       </div>
     </>
   );

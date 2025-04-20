@@ -22,7 +22,7 @@ const page = () => {
   return (
     <div className="w-full min-h-svh mt-[90px]">
       <PageHeroSection
-        image={"/assets/shared/aboutpage.jpg"}
+        image={"/assets/aboutpage/aboutbg.jpg"}
         title={"About Us"}
         link={"About Us"}
       />

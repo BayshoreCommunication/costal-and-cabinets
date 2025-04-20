@@ -33,10 +33,6 @@ export const manufacturedCabinetsHeroData = [
     id: 3,
     backgroundImage: "/assets/manufactured-cabinets/slides3.jpg",
   },
-  {
-    id: 4,
-    backgroundImage: "/assets/manufactured-cabinets/slides4.jpg",
-  },
 ];
 export const customCabinetsHeroData = [
   {
