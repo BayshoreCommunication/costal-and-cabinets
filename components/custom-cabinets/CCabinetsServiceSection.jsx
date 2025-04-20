@@ -5,15 +5,18 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import { GrRadialSelected } from "react-icons/gr";
 import Image from "next/image";
 import { BsTelephoneForwardFill } from "react-icons/bs";
+import WhatPeopleSay from "../shared/WhatPeopleSay";
 
 const CCabinetsServiceSection = () => {
   return (
     <section className="bg-white">
       <div className="container py-10 md:py-20">
         <div className="max-w-6xl mx-auto text-center ">
+          <h2 className="text-4xl lg:text-[40px] text-[#222222] font-[700]  mb-3 lg:mb-4 xl:mb-5">
+            Nobody Does What We Do
+          </h2>
           <p className="text-md md:text-lg text-[#55545A] text-center mb-4">
-            {`Are you wanting something special? Something custom..one of a kind?
-`}
+            {`Are you wanting something special? Something custom..one of a kind?`}
           </p>
           <p className="text-md md:text-lg text-[#55545A] text-center mb-4">
             {`Coastal Cabinets and Closets, LLC offers custom cabinets to suite your style and standards. `}
@@ -27,7 +30,7 @@ const CCabinetsServiceSection = () => {
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-start justify-between">
             <div>
               <Image
-                src="/assets/manufactured-cabinets/mc1.jpg"
+                src="/assets/custom-cabinets/custom-cabinets.png"
                 alt="Design Service"
                 width={1000}
                 height={1000}
@@ -78,6 +81,7 @@ const CCabinetsServiceSection = () => {
           </div>
         </div>
       </div>
+      <WhatPeopleSay />
       <div className="bg-[#eff2f5]">
         <div className="container  py-10 md:py-20">
           <div className="w-full h-auto text-center">

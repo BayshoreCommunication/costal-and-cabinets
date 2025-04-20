@@ -1,5 +1,6 @@
 import CCabinetsHeroSection from "@/components/custom-cabinets/CCabinetsHeroSection";
 import CCabinetsServiceSection from "@/components/custom-cabinets/CCabinetsServiceSection";
+import WhatPeopleSay from "@/components/shared/WhatPeopleSay";
 
 import React from "react";
 export const metadata = {
@@ -18,10 +19,10 @@ export const metadata = {
 
 const page = () => {
   return (
-    <d>
+    <div className="w-full min-h-svh mt-[62px] lg:mt-[90px]">
       <CCabinetsHeroSection />
       <CCabinetsServiceSection />
-    </d>
+    </div>
   );
 };
 
