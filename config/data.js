@@ -81,7 +81,7 @@ export const testimonialsData = [
   {
     name: "Ed B",
     review:
-      "I spent many years working on the owner's side of construction projects. John is excellent. Very experienced in many areas of construction and remodeling. He's very attentive to details and focused on quality and fair pricing.s",
+      "I spent many years working on the owner's side of construction projects. John is excellent. Very experienced in many areas of construction and remodeling. He's very attentive to details and focused on quality and fair pricing.",
     rating: 5,
     image: "/assets/testimonial/testimonial-1.jpg",
   },
