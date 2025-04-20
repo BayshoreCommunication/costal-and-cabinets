@@ -1,5 +1,6 @@
 import AboutDetails from "@/components/about-us/AboutDetails";
 import ContractorProgramForm from "@/components/contractor-program/ContractorProgramForm";
+import ContractorsDetails from "@/components/contractors/ContractorsDetails";
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
 export const metadata = {
@@ -24,7 +25,7 @@ const page = () => {
         title={"Contractor Program"}
         link={"Contractor Program"}
       />
-      <AboutDetails />
+      <ContractorsDetails />
       <ContractorProgramForm />
     </div>
   );

@@ -35,7 +35,7 @@ const MCabinetsServiceSection = () => {
               ></Image>
             </div>
             <div className="w-full h-auto max-w-lg lg:w-[512px]">
-              <h2 className="text-4xl lg:text-[30px] text-[#222222] font-[700] mb-3 lg:mb-5 xl:mb-8">
+              <h2 className="text-2xl lg:text-3xl text-[#222222] font-[700] mb-3 lg:mb-5 xl:mb-8">
                 Currently, we offer the following cabinet lines:
               </h2>
               <ul className="text-lg md:text-xl text-[#555555] space-y-2 lg:space-y-5">
@@ -75,11 +75,11 @@ const MCabinetsServiceSection = () => {
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-start justify-between">
             <div className="w-full h-auto max-w-lg lg:w-[512px]">
               <div className="mb-3 lg:mb-5 xl:mb-8">
-                <h2 className="text-4xl lg:text-[30px] text-[#222222] font-[700] mb-3 lg:mb-5">
+                <h2 className="text-2xl lg:text-3xl text-[#222222] font-[700] mb-3 lg:mb-5">
                   Some of these can arrive as RTA (ready to assemble / flat
                   pack) cabinets, if you prefer.
                 </h2>
-                <h2 className="text-4xl lg:text-[30px] text-[#222222] font-[700] mb-3 lg:mb-5 xl:mb-8">
+                <h2 className="text-2xl lg:text-3xl text-[#222222] font-[700] mb-3 lg:mb-5 xl:mb-8">
                   We offer:
                 </h2>
                 <p className="text-lg md:text-xl text-[#555555] font-semibold space-y-2 lg:space-y-5"></p>

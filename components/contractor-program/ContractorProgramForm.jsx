@@ -64,7 +64,7 @@ const ContractorProgramForm = () => {
     <div className="bg-[#eff2f5]">
       <div className="container py-10 md:py-20">
         <form className="max-w-6xl mx-auto p-4 md:p-8" onSubmit={handleSubmit}>
-          <h2 className="text-center text-2xl md:text-3xl font-semibold mb-8">
+          <h2 className="text-center text-2xl lg:text-3xl text-[#222222] font-[700] mb-3 lg:mb-5 xl:mb-8  ">
             Contractor Program Form
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
