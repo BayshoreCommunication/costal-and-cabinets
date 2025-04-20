@@ -24,7 +24,7 @@ const WhatPeopleSay = () => {
             .
           </p>
           <h2 className="text-4xl lg:text-[40px] text-[#222222] font-[700]">
-            What Everyone Says About Coastal Cabinets
+            What Everyone Says About Coastal Cabinets and Closets
           </h2>
         </div>
       </div>
