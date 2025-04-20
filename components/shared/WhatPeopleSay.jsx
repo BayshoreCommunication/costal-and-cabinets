@@ -7,7 +7,7 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 const WhatPeopleSay = () => {
   return (
     <div className="bg-[#212025] relative overflow-visible">
-      <div className="container py-10 md:py-20 relative z-10">
+      <div className="container py-10 md:py-14 relative z-10">
         <div className="flex flex-col lg:flex-row items-start gap-10 relative">
           {/* Left - Testimonial Slide */}
           <div className="w-full lg:w-1/2 xl:w-3/5 2xl:w-2/3 z-10">

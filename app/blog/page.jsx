@@ -1,5 +1,6 @@
 import BlogMainSection from "@/components/blogs/BlogMainSection";
 import PageHeroSection from "@/components/shared/PageHeroSection";
+import WhatPeopleSay from "@/components/shared/WhatPeopleSay";
 import React from "react";
 export const metadata = {
   title: `Cabinetry Ideas & Closet Design Tips | Coastal Cabinets Blog
@@ -26,6 +27,7 @@ const page = () => {
         link={"Blogs"}
       />
       <BlogMainSection />
+      <WhatPeopleSay />
     </div>
   );
 };

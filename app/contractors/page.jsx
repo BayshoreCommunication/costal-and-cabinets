@@ -2,6 +2,7 @@ import AboutDetails from "@/components/about-us/AboutDetails";
 import ContractorProgramForm from "@/components/contractor-program/ContractorProgramForm";
 import ContractorsDetails from "@/components/contractors/ContractorsDetails";
 import PageHeroSection from "@/components/shared/PageHeroSection";
+import WhatPeopleSay from "@/components/shared/WhatPeopleSay";
 import React from "react";
 export const metadata = {
   title: `Cabinetry Services for Contractors | Bulk Orders & Installations`,
@@ -27,6 +28,7 @@ const page = () => {
       />
       <ContractorsDetails />
       <ContractorProgramForm />
+      <WhatPeopleSay />
     </div>
   );
 };
