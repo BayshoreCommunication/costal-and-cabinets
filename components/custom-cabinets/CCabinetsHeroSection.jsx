@@ -1,7 +1,6 @@
 "use client";
 import React, { memo, useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   Autoplay,
@@ -10,10 +9,7 @@ import {
   Navigation,
   Pagination,
 } from "swiper/modules";
-import {
-  customCabinetsHeroData,
-  manufacturedCabinetsHeroData,
-} from "@/config/data";
+import { customCabinetsHeroData } from "@/config/data";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 import "swiper/css";

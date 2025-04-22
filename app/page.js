@@ -24,7 +24,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="w-full min-h-svh  ">
+    <main className="w-full min-h-svh  pt-16 lg:pt-24 ">
       <HeroSection />
       <DesignServiceSection />
       <SalesSection />

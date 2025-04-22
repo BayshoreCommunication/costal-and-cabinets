@@ -76,7 +76,7 @@ const MainNavbar = () => {
   return (
     <section className={"relative z-50 "}>
       {/* sticky after scroll it will show  */}
-      <div
+      {/* <div
         // bg-primary w-full
         className={`fixed top-0 left-0 w-full z-50 bg-primary shadow-md transform transition-all duration-1000 ease-in-out ${
           scrolled
@@ -167,11 +167,11 @@ const MainNavbar = () => {
             </NavbarMenu>
           </Navbar>
         </div>
-      </div>
+      </div> */}
       {/* It will always visible when scroll top or visit the site  */}
       <div
         // bg-primary w-full
-        className={`bg-white  ${scrolled && "hidden"}`}
+        className={`bg-white fixed top-0 right-0 left-0 w-full z-50`}
       >
         <div className="bg-white hidden md:block ">
           <div className="flex items-center container  justify-between">

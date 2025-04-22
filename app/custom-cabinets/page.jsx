@@ -19,7 +19,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className="w-full min-h-svh  ">
+    <div className="w-full min-h-svh  pt-16 lg:pt-24 ">
       <CCabinetsHeroSection />
       <CCabinetsServiceSection />
     </div>
