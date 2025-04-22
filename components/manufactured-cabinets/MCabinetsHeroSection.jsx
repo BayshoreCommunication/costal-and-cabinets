@@ -260,4 +260,4 @@ const MCabinetsHeroSection = () => {
   );
 };
 
-export default memo(MCabinetsHeroSection);
+export default MCabinetsHeroSection;

@@ -124,7 +124,7 @@
 // export default memo(HeroSection);
 
 "use client";
-import React, { memo, useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
@@ -253,4 +253,4 @@ const HeroSection = () => {
   );
 };
 
-export default memo(HeroSection);
+export default HeroSection;
