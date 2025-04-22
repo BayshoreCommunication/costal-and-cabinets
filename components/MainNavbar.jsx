@@ -81,7 +81,7 @@ const MainNavbar = () => {
         className={`fixed top-0 left-0 w-full z-50 bg-primary shadow-md transform transition-all duration-1000 ease-in-out ${
           scrolled
             ? "opacity-100 translate-y-0 pointer-events-auto"
-            : "opacity-0 -translate-y-4 pointer-events-none"
+            : "opacity-0  pointer-events-none"
         }`}
       >
         <div className="bg-white hidden md:block ">
