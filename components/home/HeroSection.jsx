@@ -126,7 +126,6 @@
 "use client";
 import React, { memo, useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   Autoplay,
