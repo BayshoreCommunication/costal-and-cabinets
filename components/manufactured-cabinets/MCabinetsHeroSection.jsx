@@ -153,12 +153,12 @@ const MCabinetsHeroSection = () => {
   const prevButtonRef = useRef(null);
   const nextButtonRef = useRef(null);
   const swiperRef = useRef(null);
-  const [isSafari, setIsSafari] = useState(false);
+  const [isMcSafari, setIsMcSafari] = useState(false);
 
   useEffect(() => {
     // Check if the browser is Safari
     const userAgent = window.navigator.userAgent;
-    setIsSafari(/^((?!chrome|android).)*safari/i.test(userAgent));
+    setIsMcSafari(/^((?!chrome|android).)*safari/i.test(userAgent));
 
     if (swiperRef.current && swiperRef.current.swiper) {
       const swiperInstance = swiperRef.current.swiper;
@@ -177,7 +177,7 @@ const MCabinetsHeroSection = () => {
       };
 
       // For Safari/iOS, we need to manually restart autoplay more aggressively
-      if (isSafari) {
+      if (isMcSafari) {
         swiperInstance.on("slideChange", () => {
           if (!swiperInstance.autoplay.running) {
             swiperInstance.autoplay.start();
@@ -196,7 +196,7 @@ const MCabinetsHeroSection = () => {
 
       swiperInstance.autoplay.start();
     }
-  }, [isSafari]);
+  }, [isMcSafari]);
 
   return (
     <>
