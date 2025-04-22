@@ -141,7 +141,7 @@ import {
   Navigation,
   Pagination,
 } from "swiper/modules";
-import { heroData } from "@/config/data";
+import { customCabinetsHeroData, heroData } from "@/config/data";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 import "swiper/css";
@@ -233,7 +233,7 @@ const CCabinetsHeroSection = () => {
             touchReleaseOnEdges={true}
             shortSwipes={false}
           >
-            {[...heroData].map((testimonial, index) => (
+            {[...customCabinetsHeroData].map((testimonial, index) => (
               <SwiperSlide key={index}>
                 <div className="w-full flex items-center justify-center">
                   <Image
