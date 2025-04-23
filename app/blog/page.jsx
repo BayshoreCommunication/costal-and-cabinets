@@ -1,12 +1,13 @@
-import BlogMainSection from "@/components/blogs/BlogMainSection";
-import PageHeroSection from "@/components/shared/PageHeroSection";
-import WhatPeopleSay from "@/components/shared/WhatPeopleSay";
 import React from "react";
+
+import GetAllPostData from "@/lib/GetAllPostData";
+import CallToAction from "@/components/shared/CallToAction";
+import PageHeroSection from "@/components/shared/PageHeroSection";
+import BlogMainSection from "@/components/blog/BlogMainSection";
+
 export const metadata = {
-  title: `Cabinetry Ideas & Closet Design Tips | Coastal Cabinets Blog
-`,
-  description: `Discover expert tips on custom cabinetry, closet design trends, and home organization solutions. Learn from the professionals at Coastal Cabinets and Closets.
-`,
+  title: ``,
+  description: ``,
   alternates: {
     canonical: "/",
     languages: {
@@ -18,17 +19,28 @@ export const metadata = {
   },
 };
 
-const page = () => {
+const page = async () => {
+  const blogPostData = await GetAllPostData();
+
+  const postDate = (date) => {
+    const formattedDate = new Date(date).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+    return formattedDate;
+  };
+
   return (
-    <div className="w-full  pt-16 lg:pt-24  ">
+    <>
       <PageHeroSection
         image={"/assets/blog/blog-breadcrumb-bg.png"}
         title={"Blogs"}
         link={"Blogs"}
       />
-      <BlogMainSection />
-      <WhatPeopleSay />
-    </div>
+      <BlogMainSection blogPostData={blogPostData} />
+      <CallToAction />
+    </>
   );
 };
 
