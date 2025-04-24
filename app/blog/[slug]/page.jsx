@@ -101,7 +101,7 @@ const page = async ({ params }) => {
   };
 
   return (
-    <>
+    <div className="pt-16 lg:pt-24 ">
       <style>{css}</style>
       <PageHeroSection
         image={"/assets/shared/aboutpage.jpg"}
@@ -180,7 +180,7 @@ const page = async ({ params }) => {
           </div>
         </CardMotion>
       </SectionLayout>
-    </>
+    </div>
   );
 };
 

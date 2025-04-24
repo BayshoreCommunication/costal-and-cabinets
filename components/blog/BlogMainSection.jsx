@@ -127,7 +127,7 @@ const BlogMainSection = async () => {
                   key={index}
                 >
                   <Link href={`/blog/${blogs?.slug}`} key={index}>
-                    <div className="bg-white shadow-md rounded-md">
+                    <div className="bg-white shadow-medium rounded-md overflow-hidden ">
                       <Image
                         width={1800}
                         height={300}

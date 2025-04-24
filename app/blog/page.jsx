@@ -32,7 +32,7 @@ const page = async () => {
   };
 
   return (
-    <>
+    <div className="pt-16 lg:pt-24 ">
       <PageHeroSection
         image={"/assets/blog/blog-breadcrumb-bg.png"}
         title={"Blogs"}
@@ -40,7 +40,7 @@ const page = async () => {
       />
       <BlogMainSection blogPostData={blogPostData} />
       <CallToAction />
-    </>
+    </div>
   );
 };
 
