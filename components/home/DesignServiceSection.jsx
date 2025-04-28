@@ -1,7 +1,5 @@
 import React from "react";
-import SectionLayout from "../shared/SectionLayout";
 import Link from "next/link";
-import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import { GrRadialSelected } from "react-icons/gr";
 import Image from "next/image";
 
