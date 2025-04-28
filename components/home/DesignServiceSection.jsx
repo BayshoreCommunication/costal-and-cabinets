@@ -16,9 +16,6 @@ const DesignServiceSection = () => {
           <p className="text-md md:text-lg text-[#55545A] text-center mb-4">
             {`We help our customers simplify the cabinet purchase and remodeling experience with our recommendations and expert designs from decades of experience. Whether you are looking for shaker cabinets, modern cabinets, traditional cabinets, transitional cabinets or custom cabinets, we have you covered. Give us a ring to get the design and pricing process started.`}
           </p>
-          <p className="text-md md:text-lg text-[#55545A] text-center">
-            {`Our service areas are from Tampa to Marco Island and West Palm Beach to North Miami-Dade.`}
-          </p>
         </div>
         <div className="mt-10 md:mt-12">
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-start justify-between">
