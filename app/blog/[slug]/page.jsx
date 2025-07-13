@@ -105,7 +105,7 @@ const page = async ({ params }) => {
       <style>{css}</style>
       <PageHeroSection
         image={"/assets/shared/aboutpage.jpg"}
-        title={"Blogs Title"} //bread crumb title dynamic
+        title={"Blog"} //bread crumb title dynamic
         link={"Blog Details"}
       />
       <SectionLayout bg="bg-white">
