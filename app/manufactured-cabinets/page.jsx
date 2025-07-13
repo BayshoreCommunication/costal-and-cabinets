@@ -1,4 +1,5 @@
-import MCabinetsHeroSection from "@/components/manufactured-cabinets/MCabinetsHeroSection";
+// import MCabinetsHeroSection from "@/components/manufactured-cabinets/MCabinetsHeroSection";
+import HeroSection from "@/components/home/HeroSection";
 import MCabinetsServiceSection from "@/components/manufactured-cabinets/MCabinetsServiceSection";
 import WhatPeopleSay from "@/components/shared/WhatPeopleSay";
 
@@ -20,7 +21,8 @@ export const metadata = {
 const page = () => {
   return (
     <div className="w-full  pt-16 lg:pt-24  ">
-      <MCabinetsHeroSection />
+      {/* <MCabinetsHeroSection /> */}
+      <HeroSection />
       <MCabinetsServiceSection />
       <WhatPeopleSay />
     </div>

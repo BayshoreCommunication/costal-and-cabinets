@@ -1,6 +1,6 @@
-import CCabinetsHeroSection from "@/components/custom-cabinets/CCabinetsHeroSection";
+// import CCabinetsHeroSection from "@/components/custom-cabinets/CCabinetsHeroSection";
 import CCabinetsServiceSection from "@/components/custom-cabinets/CCabinetsServiceSection";
-import WhatPeopleSay from "@/components/shared/WhatPeopleSay";
+import HeroSection from "@/components/home/HeroSection";
 
 export const metadata = {
   title: `Custom Cabinet Design in Florida | Kitchen, Bath & Office`,
@@ -19,7 +19,8 @@ export const metadata = {
 const page = () => {
   return (
     <div className="w-full min-h-svh  pt-16 lg:pt-24 ">
-      <CCabinetsHeroSection />
+      {/* <CCabinetsHeroSection /> */}
+      <HeroSection />
       <CCabinetsServiceSection />
     </div>
   );
