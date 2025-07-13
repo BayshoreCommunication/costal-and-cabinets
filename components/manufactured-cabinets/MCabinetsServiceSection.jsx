@@ -14,13 +14,13 @@ const MCabinetsServiceSection = () => {
             Nobody Does What We Do
           </h2>
           <p className="text-md md:text-lg text-[#55545A] text-center mb-4">
-            {`Coastal Cabinets and Closets, LLC offers multiple, quality cabinets from manufacturers you can trust.`}
+            {`We are experts with all things Cabinets and millwork/Woodworking.  `}
           </p>
           <p className="text-md md:text-lg text-[#55545A] text-center mb-4">
-            {`Different cabinets hit different price points, depending on the features, available or chosen options, and quality of hardware they use or that you choose.`}
+            {`If you want a special or custom veneer, we can do it, special shelving, we can do it, custom furnishings, wall panels, lighting, we can do it.`}
           </p>
           <p className="text-md md:text-lg text-[#55545A] text-center">
-            {`We can help guide you through the different manufacturers and the design and decision making process, so that you purchase cabinets that suit your needs, style and budget.`}
+            {`We work with wood, metal, glass, stone and LED lighting, to bring your visions to life.`}
           </p>
         </div>
         <div className="mt-10 md:mt-12">
