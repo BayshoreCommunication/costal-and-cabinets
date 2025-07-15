@@ -1,6 +1,7 @@
 // import MCabinetsHeroSection from "@/components/manufactured-cabinets/MCabinetsHeroSection";
 import HeroSection from "@/components/home/HeroSection";
 import MCabinetsServiceSection from "@/components/manufactured-cabinets/MCabinetsServiceSection";
+import PageHeroSection from "@/components/shared/PageHeroSection";
 import WhatPeopleSay from "@/components/shared/WhatPeopleSay";
 
 export const metadata = {
@@ -21,6 +22,13 @@ export const metadata = {
 const page = () => {
   return (
     <div className="w-full  pt-16 lg:pt-24  ">
+      <div className="mb-10">
+       <PageHeroSection
+        image={"/assets/blog/blog-breadcrumb-bg.png"}
+        title={"Manufactured Cabinets"}
+        link={"Manufactured Cabinets"}
+      />
+       </div>
       {/* <MCabinetsHeroSection /> */}
       <HeroSection />
       <MCabinetsServiceSection />

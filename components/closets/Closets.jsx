@@ -6,10 +6,15 @@ import { GrRadialSelected } from "react-icons/gr";
 import Image from "next/image";
 import { BsTelephoneForwardFill } from "react-icons/bs";
 import WhatPeopleSay from "../shared/WhatPeopleSay";
+import { closetHeroData } from "@/config/data";
+import GlobalHeroSlider from "../shared/GlobalHeroSlider";
 
 const Closets = () => {
   return (
     <section className="bg-white">
+      <div className="container pt-10 md:pt-20">
+        <GlobalHeroSlider slides={closetHeroData} />
+      </div>
       <div className="container py-10 md:py-20">
         <div className="max-w-6xl mx-auto text-center ">
           <h2 className="text-3xl md:text-4xl lg:text-[40px] text-[#222222] font-[700]  mb-3 lg:mb-4 xl:mb-6">

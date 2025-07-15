@@ -20,6 +20,38 @@ export const heroData = [
     backgroundImage: "/assets/banner/slides5.jpg",
   },
 ];
+
+export const closetHeroData = [
+  {
+    id: 1,
+    backgroundImage: "/assets/closetsBanner/slides5.jpg",
+  },
+  {
+    id: 2,
+    backgroundImage: "/assets/closetsBanner/slides2.jpg",
+  },
+  {
+    id: 3,
+    backgroundImage: "/assets/closetsBanner/slides3.jpg",
+  },
+  {
+    id: 4,
+    backgroundImage: "/assets/closetsBanner/slides4.jpg",
+  },
+  {
+    id: 5,
+    backgroundImage: "/assets/closetsBanner/slides5.jpg",
+  },
+  {
+    id: 6,
+    backgroundImage: "/assets/closetsBanner/slides6.jpg",
+  },
+  {
+    id: 7,
+    backgroundImage: "/assets/closetsBanner/slides7.jpg",
+  }
+];
+
 export const manufacturedCabinetsHeroData = [
   {
     id: 1,
@@ -47,6 +79,74 @@ export const customCabinetsHeroData = [
     id: 3,
     backgroundImage: "/assets/custom-cabinets/slides3.jpg",
   },
+  {
+    id: 4,
+    backgroundImage: "/assets/custom-cabinets/slides4.jpg",
+  },
+  {
+    id: 5,
+    backgroundImage: "/assets/custom-cabinets/slides5.jpg",
+  },
+  {
+    id: 6,
+    backgroundImage: "/assets/custom-cabinets/slides6.jpg",
+  },
+  {
+    id: 7,
+    backgroundImage: "/assets/custom-cabinets/slides7.jpg",
+  },
+  {
+    id: 8,
+    backgroundImage: "/assets/custom-cabinets/slides8.jpg",
+  },
+  {
+    id: 9,
+    backgroundImage: "/assets/custom-cabinets/slides9.jpg",
+  },
+  {
+    id: 10,
+    backgroundImage: "/assets/custom-cabinets/slides10.jpg",
+  },
+  {
+    id: 11,
+    backgroundImage: "/assets/custom-cabinets/slides11.jpg",
+  },
+  {
+    id: 12,
+    backgroundImage: "/assets/custom-cabinets/slides12.jpg",
+  },
+  {
+    id: 13,
+    backgroundImage: "/assets/custom-cabinets/slides13.jpg",
+  },
+  {
+    id: 14,
+    backgroundImage: "/assets/custom-cabinets/slides14.jpg",
+  },
+  {
+    id: 15,
+    backgroundImage: "/assets/custom-cabinets/slides15.jpg",
+  },
+  {
+    id: 16,
+    backgroundImage: "/assets/custom-cabinets/slides16.jpg",
+  },
+  {
+    id: 17,
+    backgroundImage: "/assets/custom-cabinets/slides17.jpg",
+  },
+  {
+    id: 18,
+    backgroundImage: "/assets/custom-cabinets/slides18.jpg",
+  },
+  {
+    id: 19,
+    backgroundImage: "/assets/custom-cabinets/slides19.jpg",
+  },
+  {
+    id: 20,
+    backgroundImage: "/assets/custom-cabinets/slides20.jpg",
+  }
 ];
 
 export const testimonialsData = [

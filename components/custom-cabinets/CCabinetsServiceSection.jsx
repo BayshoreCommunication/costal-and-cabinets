@@ -15,16 +15,7 @@ const CCabinetsServiceSection = () => {
           <h2 className="text-3xl md:text-4xl lg:text-[40px] text-[#222222] font-[700]  mb-3 lg:mb-4 xl:mb-6">
             Nobody Does What We Do
           </h2>
-          <p className="text-md md:text-lg text-[#55545A] text-center mb-4">
-            {`Are you wanting something special? Something custom..one of a kind?`}
-          </p>
-          <p className="text-md md:text-lg text-[#55545A] text-center mb-4">
-            {`Coastal Cabinets and Closets, LLC offers custom cabinets to suite your style and standards. `}
-          </p>
-          <p className="text-md md:text-lg text-[#55545A] text-center">
-            {`We can help guide you through the different options and the design and decision making process, so that you purchase cabinets that suit your needs, style and budget. 
-`}
-          </p>
+         <p>We are experts with all things Cabinets and millwork/Woodworking. If you want a special or custom veneer, we can do it, special shelving, we can do it, custom furnishings, wall panels, lighting, we can do it. We work with wood, metal, glass, stone and LED lighting, to bring your visions to life.</p>
         </div>
         <div className="mt-10 md:mt-12">
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-start justify-between">

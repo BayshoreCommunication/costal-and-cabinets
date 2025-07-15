@@ -5,6 +5,7 @@ import DeliverySection from "@/components/home/DeliverySection";
 import WhatPeopleSay from "@/components/home/WhatPeopleSay";
 import CallToAction from "@/components/shared/CallToAction";
 import CallToActionTwo from "@/components/shared/CallToActionTwo";
+import PageHeroSection from "@/components/shared/PageHeroSection";
 
 export const metadata = {
   title: `Custom Cabinets, Closet Design & Storage Solutions in Florida
@@ -25,6 +26,13 @@ export const metadata = {
 export default function Home() {
   return (
     <main className="w-full min-h-svh  pt-16 lg:pt-24 ">
+      <div className="mb-10">
+        <PageHeroSection
+          image={"/assets/blog/blog-breadcrumb-bg.png"}
+          title={"Home"}
+          link={"Home"}
+        />
+      </div>
       <HeroSection />
       <DesignServiceSection />
       <SalesSection />

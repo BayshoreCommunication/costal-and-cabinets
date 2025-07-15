@@ -23,6 +23,8 @@ const GlobalHeroSlider = ({ slides }) => {
   const swiperRef = useRef(null);
   const [isSafari, setIsSafari] = useState(false);
 
+  console.log(slides, "slides");
+
   useEffect(() => {
     const userAgent = window.navigator.userAgent;
     setIsSafari(/^((?!chrome|android).)*safari/i.test(userAgent));
@@ -81,20 +83,21 @@ const GlobalHeroSlider = ({ slides }) => {
       >
         {slides.map((slide, i) => (
           <SwiperSlide key={i}>
-            <div className="w-full flex items-center justify-center">
-              <Image
-                src={slide.backgroundImage}
-                alt={slide.alt || "Slide image"}
-                width={1920}
-                height={700}
-                className="object-cover w-full h-full"
-                loading={i === 0 ? "eager" : "lazy"}
-                priority={i === 0}
-                placeholder="blur"
-                blurDataURL="/placeholder.jpg" // Replace with your own low-quality image placeholder
-              />
-            </div>
-          </SwiperSlide>
+          <div className="w-full h-[550px] flex items-center justify-center">  {/* Add fixed height here */}
+            <Image
+              src={slide.backgroundImage}
+              alt={slide.alt || "Slide image"}
+              width={1920}
+              height={550} // keep this, it helps Next optimize the image
+              className="object-cover w-full h-full"
+              loading={i === 0 ? "eager" : "lazy"}
+              priority={i === 0}
+              placeholder="blur"
+              blurDataURL="/placeholder.jpg"
+            />
+          </div>
+        </SwiperSlide>
+        
         ))}
       </Swiper>
 
