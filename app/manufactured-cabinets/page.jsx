@@ -24,7 +24,7 @@ const page = () => {
     <div className="w-full  pt-16 lg:pt-24  ">
       <div className="mb-10">
        <PageHeroSection
-        image={"/assets/blog/blog-breadcrumb-bg.png"}
+        image={"/assets/homepage/slides3.jpg"}
         title={"Manufactured Cabinets"}
         link={"Manufactured Cabinets"}
       />

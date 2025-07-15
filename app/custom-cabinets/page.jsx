@@ -22,11 +22,11 @@ const page = () => {
   return (
     <div className="w-full min-h-svh  pt-16 lg:pt-24 ">
        <div className="mb-10">
-       <PageHeroSection
-        image={"/assets/aboutpage/aboutbg.jpg"}
-        title={"Custom Cabinets"}
-        link={"Custom Cabinets"}
-      />
+        <PageHeroSection
+          image={"/assets/homepage/slides2.jpg"}
+          title={"Custom Cabinets"}
+          link={"Custom Cabinets"}
+        />
        </div>
       <CCabinetsHeroSection />
       <CCabinetsServiceSection />

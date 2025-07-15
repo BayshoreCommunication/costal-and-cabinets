@@ -22,7 +22,7 @@ const page = () => {
   return (
     <div className="w-full   pt-16 lg:pt-24 ">
       <PageHeroSection
-        image={"/assets/shared/aboutpage.jpg"}
+        image={"/assets/homepage/slides4.jpg"}
         title={"Contractor Program"}
         link={"Contractor Program"}
       />

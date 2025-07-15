@@ -28,7 +28,7 @@ export default function Home() {
     <main className="w-full min-h-svh  pt-16 lg:pt-24 ">
       <div className="mb-10">
         <PageHeroSection
-          image={"/assets/blog/blog-breadcrumb-bg.png"}
+          image={"/assets/homepage/slides1.jpg"}
           title={"Home"}
           link={"Home"}
         />
