@@ -1,8 +1,8 @@
 "use client";
-import React, { useState } from "react";
-import emailjs from "emailjs-com";
-import Swal from "sweetalert2";
+import emailjs from "@emailjs/browser";
 import Link from "next/link";
+import { useState } from "react";
+import Swal from "sweetalert2";
 
 const ContractorProgramForm = () => {
   const [formData, setFormData] = useState({

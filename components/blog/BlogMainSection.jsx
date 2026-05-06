@@ -82,16 +82,12 @@
 
 // export default BlogMainSection;
 
+import parse from "html-react-parser";
 import Image from "next/image";
-import React from "react";
 import Link from "next/link";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
-import GetAllPostData from "@/lib/GetAllPostData";
-import parse from "html-react-parser";
 
-const BlogMainSection = async () => {
-  const blogPostData = await GetAllPostData();
-
+const BlogMainSection = ({ blogPostData }) => {
   const postDate = (date) => {
     const formattedDate = new Date(date).toLocaleDateString("en-US", {
       year: "numeric",

@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { IoHomeSharp } from "react-icons/io5";
@@ -17,7 +16,7 @@ const PageHeroSection = ({ image, title, link }) => {
             className="absolute inset-0 object-cover bg-bottom w-full h-full"
             src={image}
             alt="Page Hero Image"
-            layout="fill"
+            fill
             priority
           />
           <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/30 to-black/30" />

@@ -1,9 +1,9 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { send } from "emailjs-com";
-import Swal from "sweetalert2";
-import { MdArrowOutward } from "react-icons/md";
 import { areaspracticeData } from "@/config/data";
+import { send } from "@emailjs/browser";
+import { useState } from "react";
+import { MdArrowOutward } from "react-icons/md";
+import Swal from "sweetalert2";
 
 const ContactSection = () => {
   const addAreaspracticeData = [...areaspracticeData, { title: "others" }];
@@ -79,7 +79,7 @@ const ContactSection = () => {
         "service_wj7yeey",
         "template_u74l3rr",
         emailForm,
-        "2kczyCyop9k9pMsa-"
+        "2kczyCyop9k9pMsa-",
       )
         .then((response) => {
           setLoading(false); // Stop loading
