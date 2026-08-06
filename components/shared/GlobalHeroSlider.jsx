@@ -1,16 +1,16 @@
 // components/HeroSlider.tsx
 "use client";
-import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { useEffect, useRef, useState } from "react";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import {
   Autoplay,
-  Keyboard,
   EffectFade,
+  Keyboard,
   Navigation,
   Pagination,
 } from "swiper/modules";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -83,21 +83,22 @@ const GlobalHeroSlider = ({ slides }) => {
       >
         {slides.map((slide, i) => (
           <SwiperSlide key={i}>
-          <div className="w-full h-[550px] flex items-center justify-center">  {/* Add fixed height here */}
-            <Image
-              src={slide.backgroundImage}
-              alt={slide.alt || "Slide image"}
-              width={1920}
-              height={550} // keep this, it helps Next optimize the image
-              className="object-cover w-full h-full"
-              loading={i === 0 ? "eager" : "lazy"}
-              priority={i === 0}
-              placeholder="blur"
-              blurDataURL="/placeholder.jpg"
-            />
-          </div>
-        </SwiperSlide>
-        
+            <div className="w-full h-[550px] flex items-center justify-center">
+              {" "}
+              {/* Add fixed height here */}
+              <Image
+                src={slide.backgroundImage}
+                alt={slide.alt || "Slide image"}
+                width={1920}
+                height={550} // keep this, it helps Next optimize the image
+                className="object-cover w-full h-full"
+                loading={i === 0 ? "eager" : "lazy"}
+                priority={i === 0}
+                placeholder="blur"
+                blurDataURL="/placeholder.jpg"
+              />
+            </div>
+          </SwiperSlide>
         ))}
       </Swiper>
 

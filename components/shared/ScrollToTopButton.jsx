@@ -1,7 +1,7 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { MdOutlineKeyboardArrowUp } from "react-icons/md";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import { MdOutlineKeyboardArrowUp } from "react-icons/md";
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);

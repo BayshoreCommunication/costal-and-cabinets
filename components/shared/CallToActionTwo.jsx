@@ -1,8 +1,4 @@
-import SectionLayout from "./SectionLayout";
-import { PiPhoneCallFill } from "react-icons/pi";
-import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import Link from "next/link";
-import { BsTelephoneForwardFill } from "react-icons/bs";
 
 const CallToActionTwo = () => {
   return (
@@ -19,10 +15,10 @@ const CallToActionTwo = () => {
               8265 Causeway Blvd., Suite E/F, Tampa, FL 33619
             </p>
             <Link
-              href="tel:+1 813-621-8932"
+              href="tel:+1 888-858-5255"
               className="text-lg font-semibold text-secondary hover:underline duration-300"
             >
-              +1 813-621-8932
+              +1 888-858-5255
             </Link>
           </div>
         </div>

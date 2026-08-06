@@ -1,8 +1,4 @@
-import SectionLayout from "./SectionLayout";
-import { PiPhoneCallFill } from "react-icons/pi";
-import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import Link from "next/link";
-import { BsTelephoneForwardFill } from "react-icons/bs";
 
 const CallToAction = () => {
   return (
@@ -30,7 +26,7 @@ const CallToAction = () => {
           </div>
 
           <div className="group mt-8 inline-block">
-            <Link href="tel:+1 813-621-8932">
+            <Link href="tel:+1 888-858-5255">
               <button className="relative overflow-hidden bg-primary text-white py-2 lg:py-3 lg:px-8 px-4 rounded-md">
                 <span className="relative z-10 transition-colors duration-300">
                   Call Coastal Cabinets and Closets LLC
