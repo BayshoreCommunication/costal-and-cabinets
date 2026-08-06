@@ -1,17 +1,17 @@
 "use client";
-import React, { useState, useEffect, useCallback, useMemo } from "react";
 import {
   Navbar,
   NavbarBrand,
   NavbarContent,
-  NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
+  NavbarMenuToggle,
 } from "@nextui-org/react";
+import { useEffect, useMemo, useState } from "react";
 
+import { Orbitron } from "next/font/google";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Orbitron } from "next/font/google";
 import { BsTelephoneForwardFill } from "react-icons/bs";
 
 import Image from "next/image";
@@ -57,7 +57,7 @@ const MainNavbar = () => {
       { title: "Contractors", slug: "/contractors" },
       { title: "Blog", slug: "/blog" },
     ],
-    []
+    [],
   );
 
   const navLogoList = useMemo(
@@ -70,7 +70,7 @@ const MainNavbar = () => {
       { title: "Contractors", slug: "/contractors" },
       { title: "CCC Blogs", slug: "ccc-blogs" },
     ],
-    []
+    [],
   );
 
   return (
@@ -113,12 +113,12 @@ const MainNavbar = () => {
             </div>
 
             <div className="group  inline-block">
-              <Link href="tel:+1 813-621-8932">
+              <Link href="tel:+1 888-858-5255">
                 <button className="relative overflow-hidden bg-secondary  py-2  md:px-1 lg:px-1 xl:px-2 rounded-lg">
                   <div className="relative z-10 flex items-center justify-center gap-x-0 xl:gap-x-2  px-2">
                     <BsTelephoneForwardFill className="text-white size-4  xl:size-5" />
                     <h6 className=" transition-colors duration-300 text-white font-medium text-sm lg:text-base ">
-                      +1 813-621-8932
+                      +1 888-858-5255
                     </h6>
                   </div>
 
@@ -202,12 +202,12 @@ const MainNavbar = () => {
             </div>
 
             <div className="group  inline-block">
-              <Link href="tel:+1 813-621-8932">
+              <Link href="tel:+1 888-858-5255">
                 <button className="relative overflow-hidden bg-secondary  py-2  md:px-1 lg:px-1 xl:px-2 rounded-lg">
                   <div className="relative z-10 flex items-center justify-center gap-x-0 xl:gap-x-2  px-2">
                     <BsTelephoneForwardFill className="text-white size-4  xl:size-5" />
                     <h6 className=" transition-colors duration-300 text-white font-medium text-sm lg:text-base ">
-                      +1 813-621-8932
+                      +1 888-858-5255
                     </h6>
                   </div>
 
