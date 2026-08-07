@@ -1,9 +1,7 @@
-import Image from "next/image";
-import React from "react";
 import { Edu_VIC_WA_NT_Beginner } from "next/font/google";
-import ScrollMotionEffect from "../motion/ScrollMotionEffect";
-import { GrRadialSelected } from "react-icons/gr";
+import Image from "next/image";
 import Link from "next/link";
+import { GrRadialSelected } from "react-icons/gr";
 
 const edu = Edu_VIC_WA_NT_Beginner({ subsets: ["latin"] });
 
@@ -46,7 +44,7 @@ const DeliverySection = () => {
               </ul>
 
               <div className="group mt-8 inline-block">
-                <Link href="tel:+1 813-621-8932">
+                <Link href="tel:+1 888-858-5255">
                   <button className="relative overflow-hidden bg-primary text-white py-2 lg:py-3 lg:px-8 px-4 rounded-md">
                     <span className="relative z-10 transition-colors duration-300">
                       Call Coastal Cabinets and Closets LLC
